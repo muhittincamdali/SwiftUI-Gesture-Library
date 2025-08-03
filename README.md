@@ -102,15 +102,20 @@ struct AdvancedGestureView: View {
         Circle()
             .fill(Color.green)
             .frame(width: 150, height: 150)
-            .customTapGesture(configuration: .doubleTap) {
+            .customDoubleTapGesture {
                 print("Double tap detected!")
             }
             .customPinchGesture { scale in
                 print("Pinch scale: \(scale)")
             }
-            .customRotationGesture { angle in
-                print("Rotation angle: \(angle)")
-            }
+            .customRotationGesture(
+                onRotationChanged: { angle in
+                    print("Rotation angle: \(angle)")
+                },
+                onRotationEnded: { finalAngle in
+                    print("Final rotation: \(finalAngle)")
+                }
+            )
     }
 }
 ```
@@ -143,7 +148,7 @@ struct CustomGestureView: View {
             .fill(Color.red)
             .frame(width: 200, height: 200)
             .onAppear {
-                let customRecognizer = CustomGestureRecognizer(type: .custom("Custom"))
+                let customRecognizer = CustomGestureRecognizer()
                 gestureEngine.registerRecognizer(customRecognizer)
             }
     }
@@ -263,15 +268,21 @@ let tapConfig = TapConfiguration(
 
 ### API Reference
 - [Gesture Engine](Documentation/GestureEngine.md)
-- [Gesture Recognizers](Documentation/GestureRecognizers.md)
+- [Gesture Recognizers](Documentation/API/GestureRecognizers.md)
 - [Haptic Feedback](Documentation/HapticFeedback.md)
 - [SwiftUI Integration](Documentation/SwiftUIIntegration.md)
+- [API Reference](Documentation/APIReference.md)
+
+### Guides & Tutorials
+- [Getting Started](Documentation/Guides/GettingStarted.md)
+- [Advanced Gestures](Documentation/Tutorials/AdvancedGestures.md)
+- [Migration Guide](Documentation/Migration.md)
 
 ### Examples
 - [Basic Examples](Examples/BasicExamples)
-- [Advanced Examples](Examples/AdvancedExamples)
-- [Custom Gestures](Examples/CustomGestures)
-- [Performance Examples](Examples/PerformanceExamples)
+- [Advanced Gestures](Examples/AdvancedGestures)
+- [Basic Gestures](Examples/BasicGestures)
+- [Accessibility Examples](Examples/AccessibilityExamples)
 
 ## 🤝 Contributing
 
@@ -297,8 +308,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📞 Support
 
 - **Issues**: [GitHub Issues](https://github.com/muhittincamdali/SwiftUI-Gesture-Library/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/muhittincamdali/SwiftUI-Gesture-Library/discussions)
 - **Documentation**: [Full Documentation](Documentation/)
+- **Examples**: [Complete Examples](Examples/)
 
 ## 🚀 Roadmap
 
