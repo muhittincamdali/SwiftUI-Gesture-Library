@@ -299,6 +299,23 @@ We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) f
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
+**⭐ Star this repository if it helped you!**
+
+## 📊 Project Statistics
+
+<div align="center">
+
+[![GitHub stars](https://img.shields.io/github/stars/muhittincamdali/SwiftUI-Gesture-Library?style=social)](https://github.com/muhittincamdali/SwiftUI-Gesture-Library/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/muhittincamdali/SwiftUI-Gesture-Library?style=social)](https://github.com/muhittincamdali/SwiftUI-Gesture-Library/network)
+[![GitHub issues](https://img.shields.io/github/issues/muhittincamdali/SwiftUI-Gesture-Library)](https://github.com/muhittincamdali/SwiftUI-Gesture-Library/issues)
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/muhittincamdali/SwiftUI-Gesture-Library)](https://github.com/muhittincamdali/SwiftUI-Gesture-Library/pulls)
+
+</div>
+
+## 🌟 Stargazers
+
+[![Stargazers repo roster for @muhittincamdali/SwiftUI-Gesture-Library](https://reporoster.com/stars/muhittincamdali/SwiftUI-Gesture-Library)](https://github.com/muhittincamdali/SwiftUI-Gesture-Library/stargazers)
+
 ## 🙏 Acknowledgments
 
 - Apple for SwiftUI and Core Haptics
@@ -327,6 +344,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-**Made with ❤️ by [Muhittin Camdali](https://github.com/muhittincamdali)**
+**Built with ❤️ for the iOS community**
 
 *Empowering developers to create exceptional user experiences through advanced gesture recognition technology.*
