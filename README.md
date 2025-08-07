@@ -553,7 +553,6 @@ gestureTrainingManager.validateGesture(
 
 ```bash
 # Clone the repository
-git clone https://github.com/muhittincamdali/SwiftUI-Gesture-Library.git
 
 # Navigate to project directory
 cd SwiftUI-Gesture-Library
@@ -571,7 +570,6 @@ Add the framework to your project:
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/muhittincamdali/SwiftUI-Gesture-Library.git", from: "1.0.0")
 ]
 ```
 
@@ -773,24 +771,13 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 <div align="center">
 
-[![GitHub stars](https://img.shields.io/github/stars/muhittincamdali/SwiftUI-Gesture-Library?style=flat-square&logo=github)](https://github.com/muhittincamdali/SwiftUI-Gesture-Library/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/muhittincamdali/SwiftUI-Gesture-Library?style=flat-square&logo=github)](https://github.com/muhittincamdali/SwiftUI-Gesture-Library/network)
-[![GitHub issues](https://img.shields.io/github/issues/muhittincamdali/SwiftUI-Gesture-Library?style=flat-square&logo=github)](https://github.com/muhittincamdali/SwiftUI-Gesture-Library/issues)
-[![GitHub pull requests](https://img.shields.io/github/issues-pr/muhittincamdali/SwiftUI-Gesture-Library?style=flat-square&logo=github)](https://github.com/muhittincamdali/SwiftUI-Gesture-Library/pulls)
-[![GitHub contributors](https://img.shields.io/github/contributors/muhittincamdali/SwiftUI-Gesture-Library?style=flat-square&logo=github)](https://github.com/muhittincamdali/SwiftUI-Gesture-Library/graphs/contributors)
-[![GitHub last commit](https://img.shields.io/github/last-commit/muhittincamdali/SwiftUI-Gesture-Library?style=flat-square&logo=github)](https://github.com/muhittincamdali/SwiftUI-Gesture-Library/commits/master)
 
 </div>
 
 ## 🌟 Stargazers
 
-[![Stargazers repo roster for @muhittincamdali/SwiftUI-Gesture-Library](https://reporoster.com/stars/muhittincamdali/SwiftUI-Gesture-Library)](https://github.com/muhittincamdali/SwiftUI-Gesture-Library/stargazers)
 
 <div align="center">
 
-[![GitHub stats](https://github-readme-stats.vercel.app/api?username=muhittincamdali&show_icons=true&theme=radical)](https://github.com/muhittincamdali)
-[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=muhittincamdali&layout=compact&theme=radical)](https://github.com/muhittincamdali)
-[![Profile Views](https://komarev.com/ghpvc/?username=muhittincamdali&color=brightgreen)](https://github.com/muhittincamdali)
-[![GitHub Streak](https://streak-stats.demolab.com/?user=muhittincamdali&theme=radical)](https://github.com/muhittincamdali)
 
 </div>
