@@ -1,5 +1,28 @@
 # 🚀 Getting Started Guide
 
+<!-- TOC START -->
+## Table of Contents
+- [🚀 Getting Started Guide](#-getting-started-guide)
+- [Overview](#overview)
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+  - [Swift Package Manager](#swift-package-manager)
+  - [Manual Installation](#manual-installation)
+- [Clone the repository](#clone-the-repository)
+- [Navigate to project directory](#navigate-to-project-directory)
+- [Install dependencies](#install-dependencies)
+- [Open in Xcode](#open-in-xcode)
+- [Basic Setup](#basic-setup)
+  - [1. Import the Library](#1-import-the-library)
+  - [2. Initialize Gesture Library Manager](#2-initialize-gesture-library-manager)
+  - [3. Configure Performance](#3-configure-performance)
+- [Quick Example](#quick-example)
+- [Next Steps](#next-steps)
+- [Support](#support)
+- [What's Next?](#whats-next)
+<!-- TOC END -->
+
+
 ## Overview
 
 Welcome to the SwiftUI Gesture Library! This guide will help you get started with implementing advanced gesture recognition in your SwiftUI applications.

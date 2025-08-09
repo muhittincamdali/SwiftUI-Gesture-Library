@@ -1,5 +1,54 @@
 # Gesture Training API Reference
 
+<!-- TOC START -->
+## Table of Contents
+- [Gesture Training API Reference](#gesture-training-api-reference)
+- [Overview](#overview)
+- [Core Components](#core-components)
+  - [GestureTrainingManager](#gesturetrainingmanager)
+  - [GestureSampleCollector](#gesturesamplecollector)
+  - [GestureModelValidator](#gesturemodelvalidator)
+  - [GestureModelOptimizer](#gesturemodeloptimizer)
+- [Configuration Types](#configuration-types)
+  - [GestureTrainingConfiguration](#gesturetrainingconfiguration)
+  - [SampleCollectionConfiguration](#samplecollectionconfiguration)
+  - [ModelValidationConfiguration](#modelvalidationconfiguration)
+  - [ModelOptimizationConfiguration](#modeloptimizationconfiguration)
+- [Data Models](#data-models)
+  - [GestureSample](#gesturesample)
+  - [GestureTrainingResult](#gesturetrainingresult)
+  - [GestureValidationResult](#gesturevalidationresult)
+  - [GestureOptimizationResult](#gestureoptimizationresult)
+  - [GestureModel](#gesturemodel)
+- [Enums and Types](#enums-and-types)
+  - [TrainingAlgorithm](#trainingalgorithm)
+  - [OptimizationLevel](#optimizationlevel)
+  - [SampleQuality](#samplequality)
+  - [ValidationMetric](#validationmetric)
+  - [OptimizationTarget](#optimizationtarget)
+  - [QuantizationPrecision](#quantizationprecision)
+  - [CompressionLevel](#compressionlevel)
+- [Usage Examples](#usage-examples)
+  - [Basic Gesture Training](#basic-gesture-training)
+  - [Gesture Validation](#gesture-validation)
+  - [Model Optimization](#model-optimization)
+  - [Sample Collection](#sample-collection)
+  - [Model Export and Import](#model-export-and-import)
+- [Performance Considerations](#performance-considerations)
+  - [Training Performance](#training-performance)
+  - [Validation Performance](#validation-performance)
+  - [Optimization Performance](#optimization-performance)
+- [Error Handling](#error-handling)
+  - [Common Errors](#common-errors)
+  - [Error Handling Example](#error-handling-example)
+- [Platform Support](#platform-support)
+- [Best Practices](#best-practices)
+  - [Training Best Practices](#training-best-practices)
+  - [Validation Best Practices](#validation-best-practices)
+  - [Optimization Best Practices](#optimization-best-practices)
+<!-- TOC END -->
+
+
 Complete API reference for gesture training functionality in SwiftUI Gesture Library.
 
 ## Overview

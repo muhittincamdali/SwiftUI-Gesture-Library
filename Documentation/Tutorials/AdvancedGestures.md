@@ -1,5 +1,33 @@
 # Advanced Gestures Tutorial
 
+<!-- TOC START -->
+## Table of Contents
+- [Advanced Gestures Tutorial](#advanced-gestures-tutorial)
+- [🎯 Complex Gesture Combinations](#-complex-gesture-combinations)
+  - [Gesture Chaining](#gesture-chaining)
+  - [Conditional Gesture Recognition](#conditional-gesture-recognition)
+- [🎮 Custom Gesture Patterns](#-custom-gesture-patterns)
+  - [Multi-Touch Pattern Recognition](#multi-touch-pattern-recognition)
+  - [Gesture State Monitoring](#gesture-state-monitoring)
+- [🎨 Advanced Haptic Feedback](#-advanced-haptic-feedback)
+  - [Custom Haptic Patterns](#custom-haptic-patterns)
+  - [Gesture-Specific Haptic Feedback](#gesture-specific-haptic-feedback)
+- [🚀 Performance Optimization](#-performance-optimization)
+  - [Efficient Gesture Handling](#efficient-gesture-handling)
+  - [Memory Management](#memory-management)
+- [🎯 Accessibility Integration](#-accessibility-integration)
+  - [VoiceOver Support](#voiceover-support)
+  - [Switch Control Support](#switch-control-support)
+- [🔧 Custom Gesture Recognizers](#-custom-gesture-recognizers)
+  - [Creating Custom Gestures](#creating-custom-gestures)
+  - [Custom Gesture Integration](#custom-gesture-integration)
+- [📊 Performance Monitoring](#-performance-monitoring)
+  - [Real-time Performance Tracking](#real-time-performance-tracking)
+- [🎉 Advanced Examples](#-advanced-examples)
+  - [Interactive Photo Viewer](#interactive-photo-viewer)
+<!-- TOC END -->
+
+
 Learn how to create complex and advanced gesture interactions using the SwiftUI Gesture Library.
 
 ## 🎯 Complex Gesture Combinations

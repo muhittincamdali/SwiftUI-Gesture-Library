@@ -1,5 +1,50 @@
 # SwiftUI Integration Documentation
 
+<!-- TOC START -->
+## Table of Contents
+- [SwiftUI Integration Documentation](#swiftui-integration-documentation)
+- [Overview](#overview)
+- [Basic Integration](#basic-integration)
+  - [Import the Library](#import-the-library)
+  - [Simple Gesture Integration](#simple-gesture-integration)
+- [View Modifiers](#view-modifiers)
+  - [Tap Gestures](#tap-gestures)
+  - [Swipe Gestures](#swipe-gestures)
+  - [Pinch Gestures](#pinch-gestures)
+  - [Rotation Gestures](#rotation-gestures)
+  - [Pan Gestures](#pan-gestures)
+  - [Long Press Gestures](#long-press-gestures)
+  - [Multi-Touch Gestures](#multi-touch-gestures)
+- [Combined Gestures](#combined-gestures)
+  - [Multiple Gestures on Same View](#multiple-gestures-on-same-view)
+  - [Gesture Chaining](#gesture-chaining)
+- [State Management](#state-management)
+  - [Gesture State Monitoring](#gesture-state-monitoring)
+  - [Haptic Feedback Integration](#haptic-feedback-integration)
+- [Configuration](#configuration)
+  - [Gesture Engine Configuration](#gesture-engine-configuration)
+  - [Custom Gesture Configuration](#custom-gesture-configuration)
+- [Accessibility Support](#accessibility-support)
+  - [VoiceOver Integration](#voiceover-integration)
+  - [Switch Control Support](#switch-control-support)
+- [Performance Optimization](#performance-optimization)
+  - [Memory Management](#memory-management)
+  - [Performance Monitoring](#performance-monitoring)
+- [Advanced Patterns](#advanced-patterns)
+  - [Conditional Gestures](#conditional-gestures)
+  - [Gesture with Animation](#gesture-with-animation)
+  - [Complex Gesture Combinations](#complex-gesture-combinations)
+- [Error Handling](#error-handling)
+  - [Gesture Error Handling](#gesture-error-handling)
+- [Testing](#testing)
+  - [Unit Testing Gestures](#unit-testing-gestures)
+  - [UI Testing](#ui-testing)
+- [Best Practices](#best-practices)
+- [Examples](#examples)
+  - [Complete Example](#complete-example)
+<!-- TOC END -->
+
+
 Complete guide to integrating SwiftUI Gesture Library with SwiftUI applications.
 
 ## Overview

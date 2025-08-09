@@ -1,5 +1,50 @@
 # Configuration API Reference
 
+<!-- TOC START -->
+## Table of Contents
+- [Configuration API Reference](#configuration-api-reference)
+- [Overview](#overview)
+- [Core Components](#core-components)
+  - [GestureLibraryConfiguration](#gesturelibraryconfiguration)
+  - [GestureEngineConfiguration](#gestureengineconfiguration)
+  - [HapticFeedbackConfiguration](#hapticfeedbackconfiguration)
+  - [PerformanceConfiguration](#performanceconfiguration)
+- [Configuration Types](#configuration-types)
+  - [Basic Gesture Configuration](#basic-gesture-configuration)
+  - [Advanced Gesture Configuration](#advanced-gesture-configuration)
+  - [Custom Gesture Configuration](#custom-gesture-configuration)
+  - [Accessibility Configuration](#accessibility-configuration)
+  - [Analytics Configuration](#analytics-configuration)
+- [Usage Examples](#usage-examples)
+  - [Basic Library Configuration](#basic-library-configuration)
+  - [Gesture Engine Configuration](#gesture-engine-configuration)
+  - [Haptic Feedback Configuration](#haptic-feedback-configuration)
+  - [Performance Configuration](#performance-configuration)
+  - [Basic Gesture Configuration](#basic-gesture-configuration)
+  - [Advanced Gesture Configuration](#advanced-gesture-configuration)
+  - [Custom Gesture Configuration](#custom-gesture-configuration)
+  - [Accessibility Configuration](#accessibility-configuration)
+  - [Analytics Configuration](#analytics-configuration)
+  - [Complete Configuration Example](#complete-configuration-example)
+  - [Dynamic Configuration Updates](#dynamic-configuration-updates)
+  - [Configuration Validation](#configuration-validation)
+  - [Configuration Persistence](#configuration-persistence)
+- [Configuration Best Practices](#configuration-best-practices)
+  - [Performance Optimization](#performance-optimization)
+  - [Accessibility Considerations](#accessibility-considerations)
+  - [Battery Optimization](#battery-optimization)
+  - [Security and Privacy](#security-and-privacy)
+- [Error Handling](#error-handling)
+  - [Common Configuration Errors](#common-configuration-errors)
+  - [Error Handling Example](#error-handling-example)
+- [Platform Support](#platform-support)
+- [Configuration Validation](#configuration-validation)
+  - [Required Settings](#required-settings)
+  - [Optional Settings](#optional-settings)
+  - [Platform-Specific Settings](#platform-specific-settings)
+<!-- TOC END -->
+
+
 Complete API reference for configuration functionality in SwiftUI Gesture Library.
 
 ## Overview

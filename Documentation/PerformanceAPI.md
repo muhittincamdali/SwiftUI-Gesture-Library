@@ -1,5 +1,54 @@
 # Performance API Reference
 
+<!-- TOC START -->
+## Table of Contents
+- [Performance API Reference](#performance-api-reference)
+- [Overview](#overview)
+- [Core Components](#core-components)
+  - [PerformanceMonitor](#performancemonitor)
+  - [PerformanceOptimizer](#performanceoptimizer)
+  - [PerformanceProfiler](#performanceprofiler)
+  - [PerformanceScheduler](#performancescheduler)
+- [Configuration Types](#configuration-types)
+  - [PerformanceConfiguration](#performanceconfiguration)
+  - [OptimizationConfiguration](#optimizationconfiguration)
+  - [ProfilingConfiguration](#profilingconfiguration)
+  - [SchedulingConfiguration](#schedulingconfiguration)
+- [Data Models](#data-models)
+  - [PerformanceMetrics](#performancemetrics)
+  - [RealTimeMetrics](#realtimemetrics)
+  - [PerformanceReport](#performancereport)
+  - [OptimizationResult](#optimizationresult)
+  - [PerformanceProfile](#performanceprofile)
+- [Enums and Types](#enums-and-types)
+  - [OptimizationLevel](#optimizationlevel)
+  - [SchedulingAlgorithm](#schedulingalgorithm)
+  - [GesturePriority](#gesturepriority)
+  - [BottleneckType](#bottlenecktype)
+- [Usage Examples](#usage-examples)
+  - [Performance Monitoring](#performance-monitoring)
+  - [Performance Optimization](#performance-optimization)
+  - [Performance Profiling](#performance-profiling)
+  - [Performance Scheduling](#performance-scheduling)
+  - [Real-Time Performance Monitoring](#real-time-performance-monitoring)
+  - [Performance Alerting](#performance-alerting)
+- [Performance Considerations](#performance-considerations)
+  - [Memory Management](#memory-management)
+  - [CPU Optimization](#cpu-optimization)
+  - [Battery Optimization](#battery-optimization)
+  - [Real-Time Performance](#real-time-performance)
+- [Error Handling](#error-handling)
+  - [Common Errors](#common-errors)
+  - [Error Handling Example](#error-handling-example)
+- [Platform Support](#platform-support)
+- [Best Practices](#best-practices)
+  - [Monitoring Best Practices](#monitoring-best-practices)
+  - [Optimization Best Practices](#optimization-best-practices)
+  - [Profiling Best Practices](#profiling-best-practices)
+  - [Scheduling Best Practices](#scheduling-best-practices)
+<!-- TOC END -->
+
+
 Complete API reference for performance optimization functionality in SwiftUI Gesture Library.
 
 ## Overview

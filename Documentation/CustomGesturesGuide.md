@@ -1,5 +1,32 @@
 # 🎯 Custom Gestures Guide
 
+<!-- TOC START -->
+## Table of Contents
+- [🎯 Custom Gestures Guide](#-custom-gestures-guide)
+- [Overview](#overview)
+- [Pattern Recognition](#pattern-recognition)
+  - [Basic Pattern Gesture](#basic-pattern-gesture)
+- [Machine Learning Gestures](#machine-learning-gestures)
+  - [ML Gesture Recognition](#ml-gesture-recognition)
+- [Gesture Training](#gesture-training)
+  - [Custom Gesture Training](#custom-gesture-training)
+- [Gesture Classification](#gesture-classification)
+  - [Gesture Categories](#gesture-categories)
+- [Performance Optimization](#performance-optimization)
+  - [1. Efficient Pattern Matching](#1-efficient-pattern-matching)
+  - [2. Gesture Data Compression](#2-gesture-data-compression)
+  - [3. Caching Recognized Patterns](#3-caching-recognized-patterns)
+- [Best Practices](#best-practices)
+  - [1. Provide Clear Feedback](#1-provide-clear-feedback)
+  - [2. Handle Edge Cases](#2-handle-edge-cases)
+  - [3. Consider Accessibility](#3-consider-accessibility)
+- [Troubleshooting](#troubleshooting)
+  - [Common Issues](#common-issues)
+  - [Debug Tips](#debug-tips)
+- [Next Steps](#next-steps)
+<!-- TOC END -->
+
+
 ## Overview
 
 Custom gestures allow you to create unique interaction patterns that go beyond standard iOS gestures. This guide covers pattern recognition, machine learning, and custom gesture implementation.

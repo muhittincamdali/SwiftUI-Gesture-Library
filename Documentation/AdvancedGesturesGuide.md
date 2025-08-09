@@ -1,5 +1,36 @@
 # 🔄 Advanced Gestures Guide
 
+<!-- TOC START -->
+## Table of Contents
+- [🔄 Advanced Gestures Guide](#-advanced-gestures-guide)
+- [Overview](#overview)
+- [Drag Gestures](#drag-gestures)
+  - [Basic Drag](#basic-drag)
+  - [Constrained Drag](#constrained-drag)
+- [Pinch Gestures](#pinch-gestures)
+  - [Basic Pinch](#basic-pinch)
+  - [Constrained Pinch](#constrained-pinch)
+- [Rotation Gestures](#rotation-gestures)
+  - [Basic Rotation](#basic-rotation)
+  - [Snapping Rotation](#snapping-rotation)
+- [Combined Gestures](#combined-gestures)
+  - [Simultaneous Gestures](#simultaneous-gestures)
+  - [Exclusive Gestures](#exclusive-gestures)
+- [Performance Optimization](#performance-optimization)
+  - [1. Use Appropriate Update Frequency](#1-use-appropriate-update-frequency)
+  - [2. Debounce Gesture Events](#2-debounce-gesture-events)
+  - [3. Use Gesture State](#3-use-gesture-state)
+- [Best Practices](#best-practices)
+  - [1. Provide Visual Feedback](#1-provide-visual-feedback)
+  - [2. Handle Edge Cases](#2-handle-edge-cases)
+  - [3. Consider Accessibility](#3-consider-accessibility)
+- [Troubleshooting](#troubleshooting)
+  - [Common Issues](#common-issues)
+  - [Debug Tips](#debug-tips)
+- [Next Steps](#next-steps)
+<!-- TOC END -->
+
+
 ## Overview
 
 Advanced gestures provide complex interaction patterns that enhance user experience. This guide covers drag, pinch, rotation, and other sophisticated gesture implementations.

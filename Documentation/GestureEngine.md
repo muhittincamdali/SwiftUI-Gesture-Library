@@ -1,5 +1,39 @@
 # Gesture Engine Documentation
 
+<!-- TOC START -->
+## Table of Contents
+- [Gesture Engine Documentation](#gesture-engine-documentation)
+- [Overview](#overview)
+- [Architecture](#architecture)
+  - [Core Components](#core-components)
+  - [Design Principles](#design-principles)
+- [Usage](#usage)
+  - [Basic Initialization](#basic-initialization)
+  - [Registering Gesture Recognizers](#registering-gesture-recognizers)
+  - [Processing Touch Events](#processing-touch-events)
+  - [Monitoring Gesture State](#monitoring-gesture-state)
+- [Configuration](#configuration)
+  - [GestureConfiguration](#gestureconfiguration)
+  - [Performance Optimization](#performance-optimization)
+- [Advanced Features](#advanced-features)
+  - [Gesture Chaining](#gesture-chaining)
+  - [Custom Gesture Recognition](#custom-gesture-recognition)
+  - [Error Handling](#error-handling)
+- [Performance Considerations](#performance-considerations)
+  - [Memory Management](#memory-management)
+  - [Optimization Tips](#optimization-tips)
+  - [Best Practices](#best-practices)
+- [Troubleshooting](#troubleshooting)
+  - [Common Issues](#common-issues)
+  - [Debugging](#debugging)
+- [API Reference](#api-reference)
+  - [GestureEngine](#gestureengine)
+  - [GestureState](#gesturestate)
+  - [TouchEvent](#touchevent)
+- [Examples](#examples)
+<!-- TOC END -->
+
+
 ## Overview
 
 The `GestureEngine` is the core component of the SwiftUI Gesture Library that manages gesture recognition and processing. It provides a centralized system for handling multiple gesture recognizers simultaneously with advanced performance optimizations.
