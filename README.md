@@ -1,5 +1,53 @@
 # 👆 SwiftUI Gesture Library
 
+<!-- TOC START -->
+## Table of Contents
+- [👆 SwiftUI Gesture Library](#-swiftui-gesture-library)
+- [📋 Table of Contents](#-table-of-contents)
+- [🚀 Overview](#-overview)
+  - [🎯 What Makes This Library Special?](#-what-makes-this-library-special)
+- [✨ Key Features](#-key-features)
+  - [👆 Basic Gestures](#-basic-gestures)
+  - [🔄 Advanced Gestures](#-advanced-gestures)
+  - [🎯 Custom Gestures](#-custom-gestures)
+- [👆 Basic Gestures](#-basic-gestures)
+  - [Tap Gesture Manager](#tap-gesture-manager)
+  - [Long Press Gesture Manager](#long-press-gesture-manager)
+- [🔄 Advanced Gestures](#-advanced-gestures)
+  - [Drag Gesture Manager](#drag-gesture-manager)
+  - [Pinch Gesture Manager](#pinch-gesture-manager)
+  - [Rotation Gesture Manager](#rotation-gesture-manager)
+- [🎯 Custom Gestures](#-custom-gestures)
+  - [Custom Gesture Manager](#custom-gesture-manager)
+  - [Gesture Training Manager](#gesture-training-manager)
+- [🚀 Quick Start](#-quick-start)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Clone the repository](#clone-the-repository)
+- [Navigate to project directory](#navigate-to-project-directory)
+- [Install dependencies](#install-dependencies)
+- [Open in Xcode](#open-in-xcode)
+  - [Swift Package Manager](#swift-package-manager)
+  - [Basic Setup](#basic-setup)
+- [📱 Usage Examples](#-usage-examples)
+  - [Simple Tap Gesture](#simple-tap-gesture)
+  - [Simple Drag Gesture](#simple-drag-gesture)
+- [🔧 Configuration](#-configuration)
+  - [Gesture Library Configuration](#gesture-library-configuration)
+- [📚 Documentation](#-documentation)
+  - [API Documentation](#api-documentation)
+  - [Integration Guides](#integration-guides)
+  - [Examples](#examples)
+- [🤝 Contributing](#-contributing)
+  - [Development Setup](#development-setup)
+  - [Code Standards](#code-standards)
+- [📄 License](#-license)
+- [🙏 Acknowledgments](#-acknowledgments)
+- [📊 Project Statistics](#-project-statistics)
+- [🌟 Stargazers](#-stargazers)
+<!-- TOC END -->
+
+
 <div align="center">
 
 ![Swift](https://img.shields.io/badge/Swift-5.9+-FA7343?style=for-the-badge&logo=swift&logoColor=white)
