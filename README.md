@@ -784,7 +784,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🌟 Stargazers
 
-[![Stargazers repo roster for @muhittincamdali/SwiftUI-Gesture-Library](https://reporoster.com/stars/muhittincamdali/SwiftUI-Gesture-Library)](https://github.com/muhittincamdali/SwiftUI-Gesture-Library/stargazers)
+[![Stargazers repo roster for @muhittincamdali/SwiftUI-Gesture-Library](https://starchart.cc/muhittincamdali/SwiftUI-Gesture-Library.svg)](https://github.com/muhittincamdali/SwiftUI-Gesture-Library/stargazers)
 
 <div align="center">
 
