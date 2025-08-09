@@ -1,4 +1,5 @@
 # 👆 SwiftUI Gesture Library
+[![CI](https://github.com/muhittincamdali/SwiftUI-Gesture-Library/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/muhittincamdali/SwiftUI-Gesture-Library/actions/workflows/ci.yml)
 
 <!-- TOC START -->
 ## Table of Contents
