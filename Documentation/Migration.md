@@ -1,5 +1,34 @@
 # Migration Guide
 
+<!-- TOC START -->
+## Table of Contents
+- [Migration Guide](#migration-guide)
+- [Migrating from 1.x to 2.x](#migrating-from-1x-to-2x)
+  - [Breaking Changes](#breaking-changes)
+    - [Package Structure](#package-structure)
+    - [API Changes](#api-changes)
+    - [Minimum iOS Version](#minimum-ios-version)
+  - [New Features](#new-features)
+    - [Advanced Haptic Feedback](#advanced-haptic-feedback)
+    - [Performance Monitoring](#performance-monitoring)
+    - [Gesture Chaining](#gesture-chaining)
+  - [Migration Steps](#migration-steps)
+  - [Deprecated APIs](#deprecated-apis)
+  - [Performance Improvements](#performance-improvements)
+  - [Testing Migration](#testing-migration)
+  - [Troubleshooting](#troubleshooting)
+    - [Common Issues](#common-issues)
+    - [Getting Help](#getting-help)
+- [Migrating from 2.0 to 2.1](#migrating-from-20-to-21)
+  - [New Features](#new-features)
+    - [Enhanced Haptic Feedback](#enhanced-haptic-feedback)
+    - [Advanced Gesture Configurations](#advanced-gesture-configurations)
+    - [Accessibility Improvements](#accessibility-improvements)
+  - [Bug Fixes](#bug-fixes)
+  - [Performance Enhancements](#performance-enhancements)
+<!-- TOC END -->
+
+
 This guide helps you migrate from previous versions of SwiftUI Gesture Library to the latest version.
 
 ## Migrating from 1.x to 2.x

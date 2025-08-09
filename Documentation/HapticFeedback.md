@@ -1,5 +1,38 @@
 # Haptic Feedback Documentation
 
+<!-- TOC START -->
+## Table of Contents
+- [Haptic Feedback Documentation](#haptic-feedback-documentation)
+- [Overview](#overview)
+- [HapticFeedbackManager](#hapticfeedbackmanager)
+  - [Basic Usage](#basic-usage)
+  - [Configuration](#configuration)
+- [Custom Haptic Feedback](#custom-haptic-feedback)
+  - [Intensity Control](#intensity-control)
+  - [Pattern Sequences](#pattern-sequences)
+- [Gesture-Specific Feedback](#gesture-specific-feedback)
+  - [Tap Gestures](#tap-gestures)
+  - [Swipe Gestures](#swipe-gestures)
+  - [Pinch Gestures](#pinch-gestures)
+  - [Rotation Gestures](#rotation-gestures)
+  - [Long Press Gestures](#long-press-gestures)
+- [Advanced Features](#advanced-features)
+  - [Performance Monitoring](#performance-monitoring)
+  - [Accessibility Support](#accessibility-support)
+  - [Battery Optimization](#battery-optimization)
+- [Best Practices](#best-practices)
+- [Troubleshooting](#troubleshooting)
+  - [Common Issues](#common-issues)
+- [API Reference](#api-reference)
+  - [HapticFeedbackManager](#hapticfeedbackmanager)
+  - [HapticConfiguration](#hapticconfiguration)
+  - [HapticPerformanceMetrics](#hapticperformancemetrics)
+- [Examples](#examples)
+  - [Basic Haptic Integration](#basic-haptic-integration)
+  - [Advanced Haptic Patterns](#advanced-haptic-patterns)
+<!-- TOC END -->
+
+
 Complete guide to haptic feedback integration in SwiftUI Gesture Library.
 
 ## Overview

@@ -1,5 +1,44 @@
 # 🏗️ Gesture Library Manager API
 
+<!-- TOC START -->
+## Table of Contents
+- [🏗️ Gesture Library Manager API](#-gesture-library-manager-api)
+- [Overview](#overview)
+- [Core Classes](#core-classes)
+  - [GestureLibraryManager](#gesturelibrarymanager)
+  - [GestureLibraryConfiguration](#gesturelibraryconfiguration)
+- [Usage Examples](#usage-examples)
+  - [Basic Setup](#basic-setup)
+  - [Advanced Configuration](#advanced-configuration)
+  - [Performance Configuration](#performance-configuration)
+- [API Reference](#api-reference)
+  - [Methods](#methods)
+    - [`configure(_:)`](#configure)
+    - [`start(with:)`](#startwith)
+    - [`stop()`](#stop)
+    - [`configurePerformance(_:)`](#configureperformance)
+    - [`getPerformanceMetrics()`](#getperformancemetrics)
+    - [`addGesture(_:)`](#addgesture)
+    - [`removeGesture(_:)`](#removegesture)
+    - [`clearAllGestures()`](#clearallgestures)
+    - [`pause()`](#pause)
+    - [`resume()`](#resume)
+    - [`reset()`](#reset)
+- [Error Handling](#error-handling)
+  - [GestureLibraryError](#gesturelibraryerror)
+  - [Error Handling Example](#error-handling-example)
+- [Performance Considerations](#performance-considerations)
+  - [Memory Management](#memory-management)
+  - [Thread Safety](#thread-safety)
+  - [Battery Optimization](#battery-optimization)
+- [Best Practices](#best-practices)
+  - [1. Initialize Once](#1-initialize-once)
+  - [2. Configure Before Starting](#2-configure-before-starting)
+  - [3. Handle Errors Gracefully](#3-handle-errors-gracefully)
+- [Related Documentation](#related-documentation)
+<!-- TOC END -->
+
+
 ## Overview
 
 The `GestureLibraryManager` is the core component that orchestrates all gesture recognition and handling in the SwiftUI Gesture Library.

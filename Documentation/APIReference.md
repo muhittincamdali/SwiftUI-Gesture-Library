@@ -1,5 +1,56 @@
 # API Reference
 
+<!-- TOC START -->
+## Table of Contents
+- [API Reference](#api-reference)
+- [Core Components](#core-components)
+  - [GestureEngine](#gestureengine)
+  - [GestureRecognizer](#gesturerecognizer)
+- [Gesture Recognizers](#gesture-recognizers)
+  - [TapGestureRecognizer](#tapgesturerecognizer)
+  - [SwipeGestureRecognizer](#swipegesturerecognizer)
+  - [PinchGestureRecognizer](#pinchgesturerecognizer)
+  - [RotationGestureRecognizer](#rotationgesturerecognizer)
+  - [PanGestureRecognizer](#pangesturerecognizer)
+  - [LongPressGestureRecognizer](#longpressgesturerecognizer)
+  - [DragGestureRecognizer](#draggesturerecognizer)
+  - [MultiTouchGestureRecognizer](#multitouchgesturerecognizer)
+- [SwiftUI Extensions](#swiftui-extensions)
+  - [View Extensions](#view-extensions)
+- [Configuration Types](#configuration-types)
+  - [GestureConfiguration](#gestureconfiguration)
+  - [TapConfiguration](#tapconfiguration)
+  - [SwipeConfiguration](#swipeconfiguration)
+  - [PinchConfiguration](#pinchconfiguration)
+  - [RotationConfiguration](#rotationconfiguration)
+  - [PanConfiguration](#panconfiguration)
+  - [LongPressConfiguration](#longpressconfiguration)
+  - [DragConfiguration](#dragconfiguration)
+  - [MultiTouchConfiguration](#multitouchconfiguration)
+- [Enums and Types](#enums-and-types)
+  - [GestureType](#gesturetype)
+  - [GestureState](#gesturestate)
+  - [SwipeDirection](#swipedirection)
+  - [PanDirection](#pandirection)
+  - [MultiTouchPattern](#multitouchpattern)
+  - [TouchEvent](#touchevent)
+  - [TouchPhase](#touchphase)
+  - [TouchType](#touchtype)
+- [Haptic Feedback](#haptic-feedback)
+  - [HapticFeedbackManager](#hapticfeedbackmanager)
+  - [HapticConfiguration](#hapticconfiguration)
+- [Performance Monitoring](#performance-monitoring)
+  - [PerformanceMetrics](#performancemetrics)
+- [Error Handling](#error-handling)
+  - [GestureError](#gestureerror)
+- [Usage Examples](#usage-examples)
+  - [Basic Usage](#basic-usage)
+  - [Advanced Usage](#advanced-usage)
+  - [Custom Gesture Recognizer](#custom-gesture-recognizer)
+- [Best Practices](#best-practices)
+<!-- TOC END -->
+
+
 Complete API reference for SwiftUI Gesture Library.
 
 ## Core Components

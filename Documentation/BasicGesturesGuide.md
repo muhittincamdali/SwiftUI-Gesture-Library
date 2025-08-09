@@ -1,5 +1,35 @@
 # 👆 Basic Gestures Guide
 
+<!-- TOC START -->
+## Table of Contents
+- [👆 Basic Gestures Guide](#-basic-gestures-guide)
+- [Overview](#overview)
+- [Tap Gestures](#tap-gestures)
+  - [Single Tap](#single-tap)
+  - [Double Tap](#double-tap)
+- [Long Press Gestures](#long-press-gestures)
+  - [Basic Long Press](#basic-long-press)
+  - [Variable Long Press](#variable-long-press)
+- [Touch Gestures](#touch-gestures)
+  - [Touch Down/Up Events](#touch-downup-events)
+- [Hover Gestures (macOS)](#hover-gestures-macos)
+  - [Mouse Hover](#mouse-hover)
+- [Best Practices](#best-practices)
+  - [1. Provide Visual Feedback](#1-provide-visual-feedback)
+  - [2. Use Appropriate Durations](#2-use-appropriate-durations)
+  - [3. Consider Accessibility](#3-consider-accessibility)
+  - [4. Combine Gestures](#4-combine-gestures)
+- [Common Patterns](#common-patterns)
+  - [1. Toggle Pattern](#1-toggle-pattern)
+  - [2. Counter Pattern](#2-counter-pattern)
+  - [3. State Pattern](#3-state-pattern)
+- [Troubleshooting](#troubleshooting)
+  - [Common Issues](#common-issues)
+  - [Debug Tips](#debug-tips)
+- [Next Steps](#next-steps)
+<!-- TOC END -->
+
+
 ## Overview
 
 Basic gestures are the foundation of touch interaction in SwiftUI applications. This guide covers the essential gesture types that every iOS developer should know.

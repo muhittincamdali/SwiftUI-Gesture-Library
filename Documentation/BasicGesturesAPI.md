@@ -1,5 +1,39 @@
 # Basic Gestures API Reference
 
+<!-- TOC START -->
+## Table of Contents
+- [Basic Gestures API Reference](#basic-gestures-api-reference)
+- [Overview](#overview)
+- [Core Components](#core-components)
+  - [TapGestureRecognizer](#tapgesturerecognizer)
+  - [LongPressGestureRecognizer](#longpressgesturerecognizer)
+  - [TouchGestureRecognizer](#touchgesturerecognizer)
+- [Configuration Types](#configuration-types)
+  - [TapConfiguration](#tapconfiguration)
+  - [LongPressConfiguration](#longpressconfiguration)
+  - [TouchConfiguration](#touchconfiguration)
+- [Gesture Results](#gesture-results)
+  - [TapGestureResult](#tapgestureresult)
+  - [LongPressGestureResult](#longpressgestureresult)
+  - [TouchGestureResult](#touchgestureresult)
+- [Usage Examples](#usage-examples)
+  - [Single Tap Gesture](#single-tap-gesture)
+  - [Long Press Gesture](#long-press-gesture)
+  - [Touch Event Handling](#touch-event-handling)
+- [Performance Considerations](#performance-considerations)
+  - [Memory Management](#memory-management)
+  - [Performance Optimization](#performance-optimization)
+  - [Best Practices](#best-practices)
+- [Error Handling](#error-handling)
+  - [Common Errors](#common-errors)
+  - [Error Handling Example](#error-handling-example)
+- [Platform Support](#platform-support)
+- [Accessibility](#accessibility)
+  - [VoiceOver Support](#voiceover-support)
+  - [Switch Control Support](#switch-control-support)
+<!-- TOC END -->
+
+
 Complete API reference for basic gesture functionality in SwiftUI Gesture Library.
 
 ## Overview

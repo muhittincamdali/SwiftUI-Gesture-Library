@@ -1,5 +1,48 @@
 # Custom Gestures API Reference
 
+<!-- TOC START -->
+## Table of Contents
+- [Custom Gestures API Reference](#custom-gestures-api-reference)
+- [Overview](#overview)
+- [Core Components](#core-components)
+  - [CustomGestureRecognizer](#customgesturerecognizer)
+  - [MLGestureRecognizer](#mlgesturerecognizer)
+  - [GestureTrainingManager](#gesturetrainingmanager)
+  - [GestureAnalyticsManager](#gestureanalyticsmanager)
+- [Configuration Types](#configuration-types)
+  - [CustomGestureConfiguration](#customgestureconfiguration)
+  - [MLGestureConfiguration](#mlgestureconfiguration)
+  - [GestureTrainingConfiguration](#gesturetrainingconfiguration)
+  - [GestureAnalyticsConfiguration](#gestureanalyticsconfiguration)
+- [Data Models](#data-models)
+  - [CustomGesturePattern](#customgesturepattern)
+  - [MLGesturePrediction](#mlgestureprediction)
+  - [GestureSample](#gesturesample)
+  - [GestureTrainingResult](#gesturetrainingresult)
+  - [GestureValidationResult](#gesturevalidationresult)
+  - [GestureOptimizationResult](#gestureoptimizationresult)
+  - [GestureUsageStatistics](#gestureusagestatistics)
+  - [GesturePerformanceMetrics](#gestureperformancemetrics)
+- [Usage Examples](#usage-examples)
+  - [Custom Gesture Recognition](#custom-gesture-recognition)
+  - [Machine Learning Gesture Recognition](#machine-learning-gesture-recognition)
+  - [Gesture Training](#gesture-training)
+  - [Gesture Analytics](#gesture-analytics)
+- [Performance Considerations](#performance-considerations)
+  - [Memory Management](#memory-management)
+  - [Performance Optimization](#performance-optimization)
+  - [Best Practices](#best-practices)
+- [Error Handling](#error-handling)
+  - [Common Errors](#common-errors)
+  - [Error Handling Example](#error-handling-example)
+- [Platform Support](#platform-support)
+- [Accessibility](#accessibility)
+  - [VoiceOver Support](#voiceover-support)
+  - [Switch Control Support](#switch-control-support)
+  - [Accessibility Features](#accessibility-features)
+<!-- TOC END -->
+
+
 Complete API reference for custom gesture functionality in SwiftUI Gesture Library.
 
 ## Overview

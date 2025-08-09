@@ -1,5 +1,29 @@
 # Gesture Recognizers API Reference
 
+<!-- TOC START -->
+## Table of Contents
+- [Gesture Recognizers API Reference](#gesture-recognizers-api-reference)
+- [Core Gesture Recognizers](#core-gesture-recognizers)
+  - [TapGestureRecognizer](#tapgesturerecognizer)
+  - [SwipeGestureRecognizer](#swipegesturerecognizer)
+  - [PinchGestureRecognizer](#pinchgesturerecognizer)
+  - [RotationGestureRecognizer](#rotationgesturerecognizer)
+  - [PanGestureRecognizer](#pangesturerecognizer)
+  - [LongPressGestureRecognizer](#longpressgesturerecognizer)
+  - [DragGestureRecognizer](#draggesturerecognizer)
+  - [MultiTouchGestureRecognizer](#multitouchgesturerecognizer)
+- [Gesture States](#gesture-states)
+  - [GestureRecognizerState](#gesturerecognizerstate)
+  - [GestureType](#gesturetype)
+- [Error Handling](#error-handling)
+  - [GestureError](#gestureerror)
+- [Performance Monitoring](#performance-monitoring)
+  - [PerformanceMetrics](#performancemetrics)
+- [Best Practices](#best-practices)
+- [Integration with SwiftUI](#integration-with-swiftui)
+<!-- TOC END -->
+
+
 Complete API reference for all gesture recognizers in the SwiftUI Gesture Library.
 
 ## Core Gesture Recognizers

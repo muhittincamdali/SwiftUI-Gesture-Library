@@ -1,5 +1,53 @@
 # Advanced Gestures API Reference
 
+<!-- TOC START -->
+## Table of Contents
+- [Advanced Gestures API Reference](#advanced-gestures-api-reference)
+- [Overview](#overview)
+- [Core Components](#core-components)
+  - [DragGestureRecognizer](#draggesturerecognizer)
+  - [PinchGestureRecognizer](#pinchgesturerecognizer)
+  - [RotationGestureRecognizer](#rotationgesturerecognizer)
+  - [SwipeGestureRecognizer](#swipegesturerecognizer)
+  - [PanGestureRecognizer](#pangesturerecognizer)
+- [Configuration Types](#configuration-types)
+  - [DragConfiguration](#dragconfiguration)
+  - [PinchConfiguration](#pinchconfiguration)
+  - [RotationConfiguration](#rotationconfiguration)
+  - [SwipeConfiguration](#swipeconfiguration)
+  - [PanConfiguration](#panconfiguration)
+- [Gesture Results](#gesture-results)
+  - [DragGestureResult](#draggestureresult)
+  - [PinchGestureResult](#pinchgestureresult)
+  - [RotationGestureResult](#rotationgestureresult)
+  - [SwipeGestureResult](#swipegestureresult)
+  - [PanGestureResult](#pangestureresult)
+- [Direction Enums](#direction-enums)
+  - [DragDirection](#dragdirection)
+  - [RotationDirection](#rotationdirection)
+  - [SwipeDirection](#swipedirection)
+  - [PanState](#panstate)
+- [Usage Examples](#usage-examples)
+  - [Drag Gesture](#drag-gesture)
+  - [Pinch Gesture](#pinch-gesture)
+  - [Rotation Gesture](#rotation-gesture)
+  - [Swipe Gesture](#swipe-gesture)
+  - [Pan Gesture](#pan-gesture)
+- [Performance Considerations](#performance-considerations)
+  - [Memory Management](#memory-management)
+  - [Performance Optimization](#performance-optimization)
+  - [Best Practices](#best-practices)
+- [Error Handling](#error-handling)
+  - [Common Errors](#common-errors)
+  - [Error Handling Example](#error-handling-example)
+- [Platform Support](#platform-support)
+- [Accessibility](#accessibility)
+  - [VoiceOver Support](#voiceover-support)
+  - [Switch Control Support](#switch-control-support)
+  - [Accessibility Features](#accessibility-features)
+<!-- TOC END -->
+
+
 Complete API reference for advanced gesture functionality in SwiftUI Gesture Library.
 
 ## Overview

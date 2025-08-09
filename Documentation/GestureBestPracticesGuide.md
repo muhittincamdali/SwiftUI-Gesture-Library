@@ -1,5 +1,41 @@
 # 🎯 Gesture Best Practices Guide
 
+<!-- TOC START -->
+## Table of Contents
+- [🎯 Gesture Best Practices Guide](#-gesture-best-practices-guide)
+- [Overview](#overview)
+- [Performance Best Practices](#performance-best-practices)
+  - [1. Optimize Gesture Recognition](#1-optimize-gesture-recognition)
+  - [2. Debounce Gesture Events](#2-debounce-gesture-events)
+  - [3. Use Gesture State for Performance](#3-use-gesture-state-for-performance)
+- [User Experience Best Practices](#user-experience-best-practices)
+  - [1. Provide Visual Feedback](#1-provide-visual-feedback)
+  - [2. Use Haptic Feedback](#2-use-haptic-feedback)
+  - [3. Handle Edge Cases](#3-handle-edge-cases)
+- [Accessibility Best Practices](#accessibility-best-practices)
+  - [1. Provide Alternative Interactions](#1-provide-alternative-interactions)
+  - [2. Use Semantic Gestures](#2-use-semantic-gestures)
+  - [3. Support VoiceOver](#3-support-voiceover)
+- [Gesture Conflict Resolution](#gesture-conflict-resolution)
+  - [1. Use Exclusive Gestures](#1-use-exclusive-gestures)
+  - [2. Use Simultaneous Gestures](#2-use-simultaneous-gestures)
+  - [3. Prioritize Gestures](#3-prioritize-gestures)
+- [Memory Management](#memory-management)
+  - [1. Clean Up Resources](#1-clean-up-resources)
+  - [2. Avoid Retain Cycles](#2-avoid-retain-cycles)
+- [Testing Best Practices](#testing-best-practices)
+  - [1. Unit Test Gesture Logic](#1-unit-test-gesture-logic)
+  - [2. UI Test Gesture Interactions](#2-ui-test-gesture-interactions)
+- [Error Handling](#error-handling)
+  - [1. Graceful Degradation](#1-graceful-degradation)
+  - [2. User Feedback for Errors](#2-user-feedback-for-errors)
+- [Platform Considerations](#platform-considerations)
+  - [1. iOS vs macOS](#1-ios-vs-macos)
+  - [2. Device Capabilities](#2-device-capabilities)
+- [Next Steps](#next-steps)
+<!-- TOC END -->
+
+
 ## Overview
 
 This guide provides essential best practices for implementing gestures in SwiftUI applications to ensure optimal user experience, performance, and accessibility.

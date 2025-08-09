@@ -1,5 +1,39 @@
 # Getting Started with SwiftUI Gesture Library
 
+<!-- TOC START -->
+## Table of Contents
+- [Getting Started with SwiftUI Gesture Library](#getting-started-with-swiftui-gesture-library)
+- [🚀 Quick Setup](#-quick-setup)
+  - [1. Installation](#1-installation)
+  - [2. Import the Library](#2-import-the-library)
+  - [3. Basic Implementation](#3-basic-implementation)
+- [📱 Supported Platforms](#-supported-platforms)
+- [🎯 Available Gestures](#-available-gestures)
+  - [Basic Gestures](#basic-gestures)
+  - [Advanced Gestures](#advanced-gestures)
+- [🎮 Haptic Feedback](#-haptic-feedback)
+- [🔧 Configuration](#-configuration)
+  - [Gesture Engine Configuration](#gesture-engine-configuration)
+  - [Custom Gesture Configuration](#custom-gesture-configuration)
+- [🎨 SwiftUI Integration](#-swiftui-integration)
+  - [View Modifiers](#view-modifiers)
+  - [Combined Gestures](#combined-gestures)
+- [🚀 Performance Optimization](#-performance-optimization)
+  - [Best Practices](#best-practices)
+  - [Memory Management](#memory-management)
+- [🎯 Accessibility Support](#-accessibility-support)
+  - [VoiceOver Integration](#voiceover-integration)
+  - [Switch Control Support](#switch-control-support)
+- [🔍 Debugging](#-debugging)
+  - [Enable Debug Logging](#enable-debug-logging)
+  - [Performance Metrics](#performance-metrics)
+- [📚 Next Steps](#-next-steps)
+- [🤝 Contributing](#-contributing)
+- [📄 License](#-license)
+- [🆘 Support](#-support)
+<!-- TOC END -->
+
+
 Welcome to the SwiftUI Gesture Library! This guide will help you get started with advanced gesture recognition in your SwiftUI applications.
 
 ## 🚀 Quick Setup

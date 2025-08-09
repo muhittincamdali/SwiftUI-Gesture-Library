@@ -1,5 +1,57 @@
 # Accessibility API Reference
 
+<!-- TOC START -->
+## Table of Contents
+- [Accessibility API Reference](#accessibility-api-reference)
+- [Overview](#overview)
+- [Core Components](#core-components)
+  - [AccessibilityManager](#accessibilitymanager)
+  - [VoiceOverGestureRecognizer](#voiceovergesturerecognizer)
+  - [SwitchControlGestureRecognizer](#switchcontrolgesturerecognizer)
+  - [AssistiveTouchGestureRecognizer](#assistivetouchgesturerecognizer)
+- [Configuration Types](#configuration-types)
+  - [AccessibilityConfiguration](#accessibilityconfiguration)
+  - [VoiceOverConfiguration](#voiceoverconfiguration)
+  - [SwitchControlConfiguration](#switchcontrolconfiguration)
+  - [AssistiveTouchConfiguration](#assistivetouchconfiguration)
+- [Data Models](#data-models)
+  - [AccessibilityStatus](#accessibilitystatus)
+  - [AccessibilitySettings](#accessibilitysettings)
+  - [VoiceOverGesture](#voiceovergesture)
+  - [SwitchControlGesture](#switchcontrolgesture)
+  - [AssistiveTouchGesture](#assistivetouchgesture)
+- [Enums and Types](#enums-and-types)
+  - [VoiceOverGestureType](#voiceovergesturetype)
+  - [SwitchControlGestureType](#switchcontrolgesturetype)
+  - [AssistiveTouchGestureType](#assistivetouchgesturetype)
+  - [AccessibilityTraits](#accessibilitytraits)
+  - [AccessibilityAction](#accessibilityaction)
+- [Usage Examples](#usage-examples)
+  - [Basic Accessibility Setup](#basic-accessibility-setup)
+  - [VoiceOver Gesture Recognition](#voiceover-gesture-recognition)
+  - [Switch Control Gesture Recognition](#switch-control-gesture-recognition)
+  - [AssistiveTouch Gesture Recognition](#assistivetouch-gesture-recognition)
+  - [Accessibility Settings Management](#accessibility-settings-management)
+  - [Accessibility Action Handling](#accessibility-action-handling)
+  - [Accessibility Trait Management](#accessibility-trait-management)
+  - [Accessibility Announcements](#accessibility-announcements)
+- [Accessibility Best Practices](#accessibility-best-practices)
+  - [VoiceOver Best Practices](#voiceover-best-practices)
+  - [Switch Control Best Practices](#switch-control-best-practices)
+  - [AssistiveTouch Best Practices](#assistivetouch-best-practices)
+  - [General Accessibility Best Practices](#general-accessibility-best-practices)
+- [Error Handling](#error-handling)
+  - [Common Accessibility Errors](#common-accessibility-errors)
+  - [Error Handling Example](#error-handling-example)
+- [Platform Support](#platform-support)
+- [Accessibility Testing](#accessibility-testing)
+  - [VoiceOver Testing](#voiceover-testing)
+  - [Switch Control Testing](#switch-control-testing)
+  - [AssistiveTouch Testing](#assistivetouch-testing)
+  - [General Accessibility Testing](#general-accessibility-testing)
+<!-- TOC END -->
+
+
 Complete API reference for accessibility functionality in SwiftUI Gesture Library.
 
 ## Overview
