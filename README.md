@@ -29,6 +29,12 @@
 
 ---
 
+## 🌟 Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=muhittincamdali/SwiftUI-Gesture-Library&type=Date)](https://star-history.com/#muhittincamdali/SwiftUI-Gesture-Library&Date)
+
+---
+
 ## 📋 Table of Contents
 
 - [🚀 Overview](#-overview)
@@ -796,4 +802,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 [![Profile Views](https://komarev.com/ghpvc/?username=muhittincamdali&color=brightgreen)](https://github.com/muhittincamdali)
 [![GitHub Streak](https://streak-stats.demolab.com/?user=muhittincamdali&theme=radical)](https://github.com/muhittincamdali)
 
-</div>
