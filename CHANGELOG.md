@@ -133,4 +133,60 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduc
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details. 
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details. # SwiftUI-Gesture-Library - Update 1
+# SwiftUI-Gesture-Library - Update 2
+# SwiftUI-Gesture-Library - Update 3
+# SwiftUI-Gesture-Library - Update 4
+# SwiftUI-Gesture-Library - Update 5
+# SwiftUI-Gesture-Library - Update 6
+# SwiftUI-Gesture-Library - Update 7
+# SwiftUI-Gesture-Library - Update 8
+# SwiftUI-Gesture-Library - Update 9
+# SwiftUI-Gesture-Library - Update 10
+# SwiftUI-Gesture-Library - Update 11
+# SwiftUI-Gesture-Library - Update 12
+# SwiftUI-Gesture-Library - Update 13
+# SwiftUI-Gesture-Library - Update 14
+# SwiftUI-Gesture-Library - Update 15
+# SwiftUI-Gesture-Library - Update 16
+# SwiftUI-Gesture-Library - Update 17
+# SwiftUI-Gesture-Library - Update 18
+# SwiftUI-Gesture-Library - Update 19
+# SwiftUI-Gesture-Library - Update 20
+# SwiftUI-Gesture-Library - Update 21
+# SwiftUI-Gesture-Library - Update 22
+# SwiftUI-Gesture-Library - Update 23
+# SwiftUI-Gesture-Library - Update 24
+# SwiftUI-Gesture-Library - Update 25
+# SwiftUI-Gesture-Library - Update 26
+# SwiftUI-Gesture-Library - Update 27
+# SwiftUI-Gesture-Library - Update 28
+# SwiftUI-Gesture-Library - Update 29
+# SwiftUI-Gesture-Library - Update 30
+# SwiftUI-Gesture-Library - Update 31
+# SwiftUI-Gesture-Library - Update 32
+# SwiftUI-Gesture-Library - Update 33
+# SwiftUI-Gesture-Library - Update 34
+# SwiftUI-Gesture-Library - Update 35
+# SwiftUI-Gesture-Library - Update 36
+# SwiftUI-Gesture-Library - Update 37
+# SwiftUI-Gesture-Library - Update 38
+# SwiftUI-Gesture-Library - Update 39
+# SwiftUI-Gesture-Library - Update 40
+# SwiftUI-Gesture-Library - Update 41
+# SwiftUI-Gesture-Library - Update 42
+# SwiftUI-Gesture-Library - Update 43
+# SwiftUI-Gesture-Library - Update 44
+# SwiftUI-Gesture-Library - Update 45
+# SwiftUI-Gesture-Library - Update 46
+# SwiftUI-Gesture-Library - Update 47
+# SwiftUI-Gesture-Library - Update 48
+# SwiftUI-Gesture-Library - Update 49
+# SwiftUI-Gesture-Library - Update 50
+# SwiftUI-Gesture-Library - Update 51
+# SwiftUI-Gesture-Library - Update 52
+# SwiftUI-Gesture-Library - Update 53
+# SwiftUI-Gesture-Library - Update 54
+# SwiftUI-Gesture-Library - Update 55
+# SwiftUI-Gesture-Library - Update 56
+# SwiftUI-Gesture-Library - Update 57
