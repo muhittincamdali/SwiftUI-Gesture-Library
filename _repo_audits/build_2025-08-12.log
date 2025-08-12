@@ -1,0 +1,235 @@
+Building for debugging...
+[0/16] Write sources
+[14/16] Compiling _NumericsShims _NumericsShims.c
+[15/16] Write swift-version--58304C5D6DBC2206.txt
+[17/42] Compiling RealModule RealFunctions.swift
+[18/42] Compiling InternalCollectionsUtilities UInt+first and last set bit.swift
+[19/42] Compiling InternalCollectionsUtilities _UniqueCollection.swift
+[20/42] Compiling InternalCollectionsUtilities _SortedCollection.swift
+[21/42] Compiling InternalCollectionsUtilities Descriptions.swift
+[22/42] Compiling InternalCollectionsUtilities Debugging.swift
+[23/42] Compiling RealModule Real.swift
+[24/42] Compiling InternalCollectionsUtilities RandomAccessCollection+Offsets.swift
+[25/42] Compiling InternalCollectionsUtilities UnsafeBufferPointer+Extras.swift
+[26/42] Compiling InternalCollectionsUtilities UnsafeMutableBufferPointer+Extras.swift
+[27/42] Compiling RealModule Float16+Real.swift
+[28/42] Compiling RealModule Float80+Real.swift
+[29/42] Compiling RealModule ElementaryFunctions.swift
+[30/42] Compiling RealModule Float+Real.swift
+[31/42] Emitting module RealModule
+[32/42] Compiling RealModule AlgebraicField.swift
+[33/42] Compiling RealModule Double+Real.swift
+[34/42] Compiling RealModule AugmentedArithmetic.swift
+[35/42] Compiling RealModule ApproximateEquality.swift
+[36/42] Compiling InternalCollectionsUtilities UInt+reversed.swift
+[37/42] Emitting module InternalCollectionsUtilities
+[38/42] Compiling InternalCollectionsUtilities FixedWidthInteger+roundUpToPowerOfTwo.swift
+[39/42] Compiling InternalCollectionsUtilities Integer rank.swift
+[40/42] Compiling InternalCollectionsUtilities _UnsafeBitSet+Index.swift
+[41/42] Compiling InternalCollectionsUtilities _UnsafeBitSet.swift
+[42/42] Compiling InternalCollectionsUtilities _UnsafeBitSet+_Word.swift
+[43/362] Compiling DequeModule _DequeSlot.swift
+[44/362] Compiling DequeModule Deque+Hashable.swift
+[45/362] Compiling DequeModule Deque._Storage.swift
+[46/363] Compiling HashTreeCollections TreeSet+SetAlgebra Initializers.swift
+[47/363] Compiling HashTreeCollections TreeSet+SetAlgebra basics.swift
+[48/363] Compiling HashTreeCollections _HashNode+Structural union.swift
+[49/363] Compiling HashTreeCollections _HashNode+Subtree Insertions.swift
+[50/366] Compiling HeapModule _HeapNode.swift
+[51/366] Compiling HeapModule Heap.swift
+[52/366] Compiling HeapModule Heap+ExpressibleByArrayLiteral.swift
+[53/366] Compiling HeapModule Heap+UnsafeHandle.swift
+[54/366] Compiling HeapModule Heap+Invariants.swift
+[55/366] Compiling HeapModule Heap+Descriptions.swift
+[56/366] Emitting module HeapModule
+[57/366] Compiling HashTreeCollections TreeSet+SetAlgebra formIntersection.swift
+[58/366] Compiling HashTreeCollections TreeSet+SetAlgebra formSymmetricDifference.swift
+[59/366] Compiling HashTreeCollections TreeSet+SetAlgebra formUnion.swift
+[60/366] Compiling HashTreeCollections TreeSet+SetAlgebra intersection.swift
+[61/366] Compiling HashTreeCollections TreeSet+SetAlgebra isDisjoint.swift
+[62/371] Compiling HashTreeCollections _RawHashNode.swift
+[63/371] Compiling HashTreeCollections _UnmanagedHashNode.swift
+[64/371] Compiling HashTreeCollections _UnsafePath.swift
+[65/371] Compiling HashTreeCollections TreeDictionary+Codable.swift
+[66/371] Compiling HashTreeCollections _HashNode+Builder.swift
+[67/371] Compiling HashTreeCollections TreeDictionary+Collection.swift
+[68/371] Compiling HashTreeCollections TreeDictionary+CustomReflectable.swift
+[69/371] Compiling HashTreeCollections TreeDictionary+Debugging.swift
+[70/371] Compiling HashTreeCollections TreeDictionary+Descriptions.swift
+[71/371] Compiling HashTreeCollections TreeDictionary+Equatable.swift
+[72/371] Compiling HashTreeCollections _RawHashNode+UnsafeHandle.swift
+[73/371] Compiling HashTreeCollections _Hash.swift
+[74/371] Compiling HashTreeCollections _HashLevel.swift
+[76/374] Compiling HashTreeCollections TreeSet+Hashable.swift
+[77/374] Compiling HashTreeCollections TreeSet+Sendable.swift
+[78/374] Compiling HashTreeCollections TreeSet+Sequence.swift
+[86/374] Compiling HashTreeCollections TreeDictionary+MapValues.swift
+[87/374] Compiling HashTreeCollections TreeDictionary+Merge.swift
+[88/374] Compiling HashTreeCollections TreeDictionary+Sendable.swift
+[89/374] Compiling HashTreeCollections TreeDictionary+Sequence.swift
+[90/374] Compiling HashTreeCollections TreeDictionary+Values.swift
+[95/374] Compiling HashTreeCollections TreeDictionary+Keys.swift
+[96/374] Compiling HashTreeCollections _AncestorHashSlots.swift
+[97/374] Compiling HashTreeCollections _Bitmap.swift
+[98/374] Compiling HashTreeCollections _Bucket.swift
+[103/374] Compiling HashTreeCollections _HashNode+Subtree Modify.swift
+[104/374] Compiling HashTreeCollections _HashNode+Subtree Removals.swift
+[105/374] Compiling HashTreeCollections _HashNode+UnsafeHandle.swift
+[106/374] Compiling HashTreeCollections _HashNode.swift
+[107/374] Compiling HashTreeCollections TreeSet+Descriptions.swift
+[108/374] Compiling HashTreeCollections TreeSet+Equatable.swift
+[109/374] Compiling HashTreeCollections TreeSet+ExpressibleByArrayLiteral.swift
+[110/374] Compiling HashTreeCollections TreeSet+Extras.swift
+[111/374] Compiling HashTreeCollections TreeSet+Filter.swift
+[112/374] Compiling DequeModule _UnsafeWrappedBuffer.swift
+[113/374] Emitting module BitCollections
+[114/374] Compiling DequeModule _DequeBuffer.swift
+[115/374] Compiling DequeModule Deque+Extras.swift
+[116/374] Compiling DequeModule Deque.swift
+[117/374] Compiling DequeModule _DequeBufferHeader.swift
+[118/374] Compiling DequeModule Deque+Codable.swift
+[119/374] Compiling DequeModule Deque+Equatable.swift
+[120/374] Compiling DequeModule Deque+Descriptions.swift
+[121/374] Compiling DequeModule Deque+CustomReflectable.swift
+[122/374] Compiling DequeModule Deque._UnsafeHandle.swift
+[123/374] Compiling DequeModule Deque+ExpressibleByArrayLiteral.swift
+[124/374] Compiling DequeModule Deque+Testing.swift
+[125/374] Compiling HashTreeCollections _HashNode+Debugging.swift
+[126/374] Compiling HashTreeCollections _HashNode+Initializers.swift
+[127/374] Compiling HashTreeCollections _HashNode+Invariants.swift
+[128/374] Compiling HashTreeCollections _HashNode+Lookups.swift
+[129/374] Compiling HashTreeCollections TreeDictionary+ExpressibleByDictionaryLiteral.swift
+[130/374] Compiling HashTreeCollections TreeDictionary+Filter.swift
+[131/374] Compiling HashTreeCollections TreeDictionary+Hashable.swift
+[132/374] Compiling HashTreeCollections TreeDictionary+Initializers.swift
+[137/374] Compiling HashTreeCollections TreeSet+SetAlgebra isStrictSuperset.swift
+[138/374] Compiling HashTreeCollections TreeSet+SetAlgebra isSubset.swift
+[139/374] Compiling HashTreeCollections TreeSet+SetAlgebra isSuperset.swift
+[142/374] Compiling HashTreeCollections _HashNode+Primitive Insertions.swift
+[143/374] Compiling HashTreeCollections _HashNode+Primitive Removals.swift
+[144/374] Compiling HashTreeCollections TreeDictionary.swift
+[145/374] Compiling HashTreeCollections TreeSet+Codable.swift
+[146/374] Compiling HashTreeCollections TreeSet+Collection.swift
+[147/374] Compiling HashTreeCollections TreeSet+CustomReflectable.swift
+[148/374] Compiling HashTreeCollections TreeSet+Debugging.swift
+[149/374] Compiling HashTreeCollections TreeSet+SetAlgebra isEqualSet.swift
+[150/374] Compiling HashTreeCollections TreeSet+SetAlgebra isStrictSubset.swift
+[151/374] Compiling HashTreeCollections TreeSet+SetAlgebra subtract.swift
+[152/374] Compiling HashTreeCollections TreeSet+SetAlgebra subtracting.swift
+[153/374] Compiling HashTreeCollections TreeSet+SetAlgebra symmetricDifference.swift
+[154/374] Compiling HashTreeCollections TreeSet+SetAlgebra union.swift
+[155/374] Compiling HashTreeCollections TreeSet.swift
+[165/374] Compiling HashTreeCollections _HashNodeHeader.swift
+[166/374] Compiling HashTreeCollections _HashSlot.swift
+[167/374] Compiling HashTreeCollections _HashStack.swift
+[168/374] Compiling HashTreeCollections _HashTreeIterator.swift
+[169/374] Compiling HashTreeCollections _HashTreeStatistics.swift
+[173/374] Compiling DequeModule Deque+Collection.swift
+[174/374] Compiling BitCollections Slice+Utilities.swift
+[175/374] Compiling BitCollections UInt+Tricks.swift
+[176/374] Compiling BitCollections _Word.swift
+[214/375] Compiling OrderedCollections OrderedSet.swift
+[215/375] Compiling OrderedCollections _UnsafeBitset.swift
+[220/375] Compiling Algorithms Unique.swift
+[223/375] Compiling Algorithms Trim.swift
+[230/375] Compiling Algorithms Stride.swift
+[240/379] Emitting module DequeModule
+[241/379] Compiling _RopeModule String.Index+ABI.swift
+[242/379] Compiling _RopeModule _CharacterRecognizer.swift
+[243/379] Compiling HashTreeCollections _HashNode+Structural compactMapValues.swift
+[244/379] Compiling HashTreeCollections _HashNode+Structural filter.swift
+[245/379] Compiling HashTreeCollections _HashNode+Structural intersection.swift
+[246/379] Compiling HashTreeCollections _HashNode+Structural isDisjoint.swift
+[266/379] Compiling HashTreeCollections _HashNode+Structural merge.swift
+[267/379] Compiling HashTreeCollections _HashNode+Structural subtracting.swift
+[268/379] Compiling HashTreeCollections _HashNode+Structural symmetricDifference.swift
+[269/379] Compiling Algorithms Windows.swift
+[290/379] Compiling _RopeModule Optional Utilities.swift
+[291/379] Compiling _RopeModule String Utilities.swift
+[356/379] Emitting module OrderedCollections
+[367/427] Emitting module _RopeModule
+[368/427] Compiling AsyncAlgorithms AsyncThrowingExclusiveReductionsSequence.swift
+[369/427] Compiling AsyncAlgorithms AsyncAdjacentPairsSequence.swift
+[370/427] Compiling Algorithms Suffix.swift
+[371/427] Compiling AsyncAlgorithms AsyncSyncSequence.swift
+[372/427] Compiling AsyncAlgorithms AsyncThrottleSequence.swift
+[373/427] Emitting module Algorithms
+[378/427] Compiling AsyncAlgorithms AsyncBufferedByteIterator.swift
+[379/427] Emitting module HashTreeCollections
+[380/429] Compiling Collections Collections.swift
+[381/429] Emitting module Collections
+[382/433] Compiling AsyncAlgorithms AsyncThrowingInclusiveReductionsSequence.swift
+[383/433] Compiling AsyncAlgorithms AsyncTimerSequence.swift
+[384/433] Compiling AsyncAlgorithms AsyncBufferSequence.swift
+[385/433] Compiling AsyncAlgorithms MergeStorage.swift
+[386/433] Compiling AsyncAlgorithms RangeReplaceableCollection.swift
+[387/433] Compiling AsyncAlgorithms Rethrow.swift
+[388/436] Compiling AsyncAlgorithms AsyncMerge2Sequence.swift
+[389/436] Compiling AsyncAlgorithms AsyncMerge3Sequence.swift
+[390/436] Compiling AsyncAlgorithms MergeStateMachine.swift
+[396/436] Compiling AsyncAlgorithms AsyncChain2Sequence.swift
+[397/436] Compiling AsyncAlgorithms AsyncChain3Sequence.swift
+[398/436] Emitting module AsyncAlgorithms
+[399/436] Compiling AsyncAlgorithms SetAlgebra.swift
+[400/436] Compiling AsyncAlgorithms UnsafeTransfer.swift
+[401/436] Compiling AsyncAlgorithms AsyncZip2Sequence.swift
+[402/436] Compiling AsyncAlgorithms AsyncChunkedByGroupSequence.swift
+[403/436] Compiling AsyncAlgorithms AsyncChunkedOnProjectionSequence.swift
+[404/436] Compiling AsyncAlgorithms AsyncChunksOfCountOrSignalSequence.swift
+[405/436] Compiling AsyncAlgorithms AsyncChunksOfCountSequence.swift
+[406/436] Compiling AsyncAlgorithms UnboundedBufferStorage.swift
+[407/436] Compiling AsyncAlgorithms AsyncChannel.swift
+[408/436] Compiling AsyncAlgorithms AsyncThrowingChannel.swift
+[409/436] Compiling AsyncAlgorithms BoundedBufferStateMachine.swift
+[410/436] Compiling AsyncAlgorithms BoundedBufferStorage.swift
+[411/436] Compiling AsyncAlgorithms UnboundedBufferStateMachine.swift
+[412/436] Compiling AsyncAlgorithms AsyncJoinedBySeparatorSequence.swift
+[413/436] Compiling AsyncAlgorithms AsyncJoinedSequence.swift
+[414/436] Compiling AsyncAlgorithms AsyncRemoveDuplicatesSequence.swift
+[415/436] Compiling AsyncAlgorithms AsyncDebounceSequence.swift
+[416/436] Compiling AsyncAlgorithms DebounceStateMachine.swift
+[417/436] Compiling AsyncAlgorithms DebounceStorage.swift
+[418/436] Compiling AsyncAlgorithms ChannelStateMachine.swift
+[419/436] Compiling AsyncAlgorithms ChannelStorage.swift
+[420/436] Compiling AsyncAlgorithms AsyncCombineLatest2Sequence.swift
+[421/436] Compiling AsyncAlgorithms AsyncCompactedSequence.swift
+[422/436] Compiling AsyncAlgorithms AsyncExclusiveReductionsSequence.swift
+[423/436] Compiling AsyncAlgorithms AsyncInclusiveReductionsSequence.swift
+[424/436] Compiling AsyncAlgorithms AsyncCombineLatest3Sequence.swift
+[425/436] Compiling AsyncAlgorithms CombineLatestStateMachine.swift
+[426/436] Compiling AsyncAlgorithms CombineLatestStorage.swift
+[427/436] Compiling AsyncAlgorithms Dictionary.swift
+[428/436] Compiling AsyncAlgorithms AsyncInterspersedSequence.swift
+[429/436] Compiling AsyncAlgorithms Locking.swift
+[430/436] Compiling AsyncAlgorithms AsyncZip3Sequence.swift
+[431/436] Compiling AsyncAlgorithms ZipStateMachine.swift
+[432/436] Compiling AsyncAlgorithms ZipStorage.swift
+error: emit-module command failed with exit code 1 (use -v to see invocation)
+[433/436] Emitting module SwiftUIGestureLibraryCore
+/Users/muhittincamdali/Desktop/Cursor Projects/GitHub/SwiftUI-Gesture-Library/Sources/Core/MainFramework.swift:2:8: error: no such module 'UIKit'
+  1 | import Foundation
+  2 | import UIKit
+    |        `- error: no such module 'UIKit'
+  3 | 
+  4 | /**
+[434/436] Compiling SwiftUIGestureLibraryCore GestureEngine.swift
+/Users/muhittincamdali/Desktop/Cursor Projects/GitHub/SwiftUI-Gesture-Library/Sources/Core/MainFramework.swift:2:8: error: no such module 'UIKit'
+  1 | import Foundation
+  2 | import UIKit
+    |        `- error: no such module 'UIKit'
+  3 | 
+  4 | /**
+[435/436] Compiling SwiftUIGestureLibraryCore MainFramework.swift
+/Users/muhittincamdali/Desktop/Cursor Projects/GitHub/SwiftUI-Gesture-Library/Sources/Core/MainFramework.swift:2:8: error: no such module 'UIKit'
+  1 | import Foundation
+  2 | import UIKit
+    |        `- error: no such module 'UIKit'
+  3 | 
+  4 | /**
+[436/436] Compiling SwiftUIGestureLibraryCore GestureRecognizer.swift
+/Users/muhittincamdali/Desktop/Cursor Projects/GitHub/SwiftUI-Gesture-Library/Sources/Core/MainFramework.swift:2:8: error: no such module 'UIKit'
+  1 | import Foundation
+  2 | import UIKit
+    |        `- error: no such module 'UIKit'
+  3 | 
+  4 | /**
