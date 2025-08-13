@@ -1,0 +1,4 @@
+module Collections {
+    header "/Users/muhittincamdali/Desktop/Cursor Projects/GitHub/SwiftUI-Gesture-Library/.build/x86_64-apple-macosx/debug/Collections.build/Collections-Swift.h"
+    requires objc
+}

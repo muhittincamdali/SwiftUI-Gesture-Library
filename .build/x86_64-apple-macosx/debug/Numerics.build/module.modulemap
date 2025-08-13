@@ -1,0 +1,4 @@
+module Numerics {
+    header "/Users/muhittincamdali/Desktop/Cursor Projects/GitHub/SwiftUI-Gesture-Library/.build/x86_64-apple-macosx/debug/Numerics.build/Numerics-Swift.h"
+    requires objc
+}
