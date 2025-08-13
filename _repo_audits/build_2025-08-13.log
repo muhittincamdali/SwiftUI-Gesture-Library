@@ -1,0 +1,32 @@
+[0/1] Planning build
+Building for debugging...
+[0/1] Write swift-version--58304C5D6DBC2206.txt
+error: emit-module command failed with exit code 1 (use -v to see invocation)
+[2/5] Emitting module SwiftUIGestureLibraryCore
+/Users/muhittincamdali/Desktop/Cursor Projects/GitHub/SwiftUI-Gesture-Library/Sources/Core/MainFramework.swift:2:8: error: no such module 'UIKit'
+  1 | import Foundation
+  2 | import UIKit
+    |        `- error: no such module 'UIKit'
+  3 | 
+  4 | /**
+[3/5] Compiling SwiftUIGestureLibraryCore MainFramework.swift
+/Users/muhittincamdali/Desktop/Cursor Projects/GitHub/SwiftUI-Gesture-Library/Sources/Core/MainFramework.swift:2:8: error: no such module 'UIKit'
+  1 | import Foundation
+  2 | import UIKit
+    |        `- error: no such module 'UIKit'
+  3 | 
+  4 | /**
+[4/5] Compiling SwiftUIGestureLibraryCore GestureEngine.swift
+/Users/muhittincamdali/Desktop/Cursor Projects/GitHub/SwiftUI-Gesture-Library/Sources/Core/MainFramework.swift:2:8: error: no such module 'UIKit'
+  1 | import Foundation
+  2 | import UIKit
+    |        `- error: no such module 'UIKit'
+  3 | 
+  4 | /**
+[5/5] Compiling SwiftUIGestureLibraryCore GestureRecognizer.swift
+/Users/muhittincamdali/Desktop/Cursor Projects/GitHub/SwiftUI-Gesture-Library/Sources/Core/MainFramework.swift:2:8: error: no such module 'UIKit'
+  1 | import Foundation
+  2 | import UIKit
+    |        `- error: no such module 'UIKit'
+  3 | 
+  4 | /**
