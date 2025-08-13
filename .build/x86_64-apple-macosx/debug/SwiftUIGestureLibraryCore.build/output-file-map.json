@@ -1,0 +1,23 @@
+{
+  "": {
+    "swift-dependencies": "/Users/muhittincamdali/Desktop/Cursor Projects/GitHub/SwiftUI-Gesture-Library/.build/x86_64-apple-macosx/debug/SwiftUIGestureLibraryCore.build/master.swiftdeps"
+  },
+  "/Users/muhittincamdali/Desktop/Cursor Projects/GitHub/SwiftUI-Gesture-Library/Sources/Core/GestureEngine.swift": {
+    "dependencies": "/Users/muhittincamdali/Desktop/Cursor Projects/GitHub/SwiftUI-Gesture-Library/.build/x86_64-apple-macosx/debug/SwiftUIGestureLibraryCore.build/GestureEngine.d",
+    "object": "/Users/muhittincamdali/Desktop/Cursor Projects/GitHub/SwiftUI-Gesture-Library/.build/x86_64-apple-macosx/debug/SwiftUIGestureLibraryCore.build/GestureEngine.swift.o",
+    "swiftmodule": "/Users/muhittincamdali/Desktop/Cursor Projects/GitHub/SwiftUI-Gesture-Library/.build/x86_64-apple-macosx/debug/SwiftUIGestureLibraryCore.build/GestureEngine~partial.swiftmodule",
+    "swift-dependencies": "/Users/muhittincamdali/Desktop/Cursor Projects/GitHub/SwiftUI-Gesture-Library/.build/x86_64-apple-macosx/debug/SwiftUIGestureLibraryCore.build/GestureEngine.swiftdeps"
+  },
+  "/Users/muhittincamdali/Desktop/Cursor Projects/GitHub/SwiftUI-Gesture-Library/Sources/Core/GestureRecognizer.swift": {
+    "dependencies": "/Users/muhittincamdali/Desktop/Cursor Projects/GitHub/SwiftUI-Gesture-Library/.build/x86_64-apple-macosx/debug/SwiftUIGestureLibraryCore.build/GestureRecognizer.d",
+    "object": "/Users/muhittincamdali/Desktop/Cursor Projects/GitHub/SwiftUI-Gesture-Library/.build/x86_64-apple-macosx/debug/SwiftUIGestureLibraryCore.build/GestureRecognizer.swift.o",
+    "swiftmodule": "/Users/muhittincamdali/Desktop/Cursor Projects/GitHub/SwiftUI-Gesture-Library/.build/x86_64-apple-macosx/debug/SwiftUIGestureLibraryCore.build/GestureRecognizer~partial.swiftmodule",
+    "swift-dependencies": "/Users/muhittincamdali/Desktop/Cursor Projects/GitHub/SwiftUI-Gesture-Library/.build/x86_64-apple-macosx/debug/SwiftUIGestureLibraryCore.build/GestureRecognizer.swiftdeps"
+  },
+  "/Users/muhittincamdali/Desktop/Cursor Projects/GitHub/SwiftUI-Gesture-Library/Sources/Core/MainFramework.swift": {
+    "dependencies": "/Users/muhittincamdali/Desktop/Cursor Projects/GitHub/SwiftUI-Gesture-Library/.build/x86_64-apple-macosx/debug/SwiftUIGestureLibraryCore.build/MainFramework.d",
+    "object": "/Users/muhittincamdali/Desktop/Cursor Projects/GitHub/SwiftUI-Gesture-Library/.build/x86_64-apple-macosx/debug/SwiftUIGestureLibraryCore.build/MainFramework.swift.o",
+    "swiftmodule": "/Users/muhittincamdali/Desktop/Cursor Projects/GitHub/SwiftUI-Gesture-Library/.build/x86_64-apple-macosx/debug/SwiftUIGestureLibraryCore.build/MainFramework~partial.swiftmodule",
+    "swift-dependencies": "/Users/muhittincamdali/Desktop/Cursor Projects/GitHub/SwiftUI-Gesture-Library/.build/x86_64-apple-macosx/debug/SwiftUIGestureLibraryCore.build/MainFramework.swiftdeps"
+  }
+}

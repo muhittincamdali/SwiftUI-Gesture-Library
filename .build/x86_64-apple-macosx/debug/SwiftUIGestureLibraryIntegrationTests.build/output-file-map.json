@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/muhittincamdali/Desktop/Cursor Projects/GitHub/SwiftUI-Gesture-Library/.build/x86_64-apple-macosx/debug/SwiftUIGestureLibraryIntegrationTests.build/master.swiftdeps"
+  },
+  "/Users/muhittincamdali/Desktop/Cursor Projects/GitHub/SwiftUI-Gesture-Library/Tests/IntegrationTests/GestureIntegrationTests.swift": {
+    "dependencies": "/Users/muhittincamdali/Desktop/Cursor Projects/GitHub/SwiftUI-Gesture-Library/.build/x86_64-apple-macosx/debug/SwiftUIGestureLibraryIntegrationTests.build/GestureIntegrationTests.d",
+    "object": "/Users/muhittincamdali/Desktop/Cursor Projects/GitHub/SwiftUI-Gesture-Library/.build/x86_64-apple-macosx/debug/SwiftUIGestureLibraryIntegrationTests.build/GestureIntegrationTests.swift.o",
+    "swiftmodule": "/Users/muhittincamdali/Desktop/Cursor Projects/GitHub/SwiftUI-Gesture-Library/.build/x86_64-apple-macosx/debug/SwiftUIGestureLibraryIntegrationTests.build/GestureIntegrationTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/muhittincamdali/Desktop/Cursor Projects/GitHub/SwiftUI-Gesture-Library/.build/x86_64-apple-macosx/debug/SwiftUIGestureLibraryIntegrationTests.build/GestureIntegrationTests.swiftdeps"
+  }
+}

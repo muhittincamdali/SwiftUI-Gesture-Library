@@ -1,0 +1,4 @@
+module OrderedCollections {
+    header "/Users/muhittincamdali/Desktop/Cursor Projects/GitHub/SwiftUI-Gesture-Library/.build/x86_64-apple-macosx/debug/OrderedCollections.build/OrderedCollections-Swift.h"
+    requires objc
+}

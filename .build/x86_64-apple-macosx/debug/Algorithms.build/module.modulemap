@@ -1,0 +1,4 @@
+module Algorithms {
+    header "/Users/muhittincamdali/Desktop/Cursor Projects/GitHub/SwiftUI-Gesture-Library/.build/x86_64-apple-macosx/debug/Algorithms.build/Algorithms-Swift.h"
+    requires objc
+}

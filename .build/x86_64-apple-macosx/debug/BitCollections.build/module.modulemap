@@ -1,0 +1,4 @@
+module BitCollections {
+    header "/Users/muhittincamdali/Desktop/Cursor Projects/GitHub/SwiftUI-Gesture-Library/.build/x86_64-apple-macosx/debug/BitCollections.build/BitCollections-Swift.h"
+    requires objc
+}
