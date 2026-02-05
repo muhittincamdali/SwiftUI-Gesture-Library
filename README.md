@@ -1,62 +1,78 @@
-```
-╔══════════════════════════════════════════════════════════════════════════════════╗
-║                                                                                  ║
-║    ██████╗ ███████╗███████╗████████╗██╗   ██╗██████╗ ███████╗██╗  ██╗██╗████████╗║
-║   ██╔════╝ ██╔════╝██╔════╝╚══██╔══╝██║   ██║██╔══██╗██╔════╝██║ ██╔╝██║╚══██╔══╝║
-║   ██║  ███╗█████╗  ███████╗   ██║   ██║   ██║██████╔╝█████╗  █████╔╝ ██║   ██║   ║
-║   ██║   ██║██╔══╝  ╚════██║   ██║   ██║   ██║██╔══██╗██╔══╝  ██╔═██╗ ██║   ██║   ║
-║   ╚██████╔╝███████╗███████║   ██║   ╚██████╔╝██║  ██║███████╗██║  ██╗██║   ██║   ║
-║    ╚═════╝ ╚══════╝╚══════╝   ╚═╝    ╚═════╝ ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚═╝   ╚═╝   ║
-║                                                                                  ║
-╚══════════════════════════════════════════════════════════════════════════════════╝
-```
+<p align="center">
+  <img src="https://raw.githubusercontent.com/nicklockwood/SwiftFormat/main/EditorExtension/Assets.xcassets/AppIcon.appiconset/icon1024.png" width="120" height="120" alt="GestureKit Icon">
+</p>
 
-<div align="center">
+<h1 align="center">GestureKit</h1>
 
-**Advanced gesture library for SwiftUI. Touch, pinch, rotate, swipe — all declarative.**
+<p align="center">
+  <strong>The most comprehensive gesture library for SwiftUI</strong><br>
+  25+ gesture types • Shape recognition • Recording & playback • Full accessibility
+</p>
 
-[![Swift](https://img.shields.io/badge/Swift-5.9+-F05138?style=for-the-badge&logo=swift&logoColor=white)](https://swift.org)
-[![iOS](https://img.shields.io/badge/iOS-15.0+-000000?style=for-the-badge&logo=apple&logoColor=white)](https://developer.apple.com/ios/)
-[![visionOS](https://img.shields.io/badge/visionOS-1.0+-007AFF?style=for-the-badge&logo=apple&logoColor=white)](https://developer.apple.com/visionos/)
-[![SPM](https://img.shields.io/badge/SPM-Compatible-FA7343?style=for-the-badge&logo=swift&logoColor=white)](https://swift.org/package-manager/)
-[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
-[![CI](https://github.com/muhittincamdali/SwiftUI-Gesture-Library/actions/workflows/ci.yml/badge.svg)](https://github.com/muhittincamdali/SwiftUI-Gesture-Library/actions)
-
-[Features](#-features) • [Quick Start](#-quick-start) • [Installation](#-installation) • [Gestures](#-gesture-catalog) • [API](#-api-reference) • [Docs](Documentation/)
-
-</div>
+<p align="center">
+  <a href="https://github.com/muhamm3t-cap/SwiftUI-Gesture-Library/actions">
+    <img src="https://img.shields.io/badge/build-passing-brightgreen?style=flat-square" alt="Build Status">
+  </a>
+  <a href="https://swift.org">
+    <img src="https://img.shields.io/badge/Swift-5.9+-orange?style=flat-square&logo=swift" alt="Swift 5.9+">
+  </a>
+  <a href="https://developer.apple.com/ios/">
+    <img src="https://img.shields.io/badge/iOS-15.0+-blue?style=flat-square&logo=apple" alt="iOS 15.0+">
+  </a>
+  <a href="https://developer.apple.com/macos/">
+    <img src="https://img.shields.io/badge/macOS-13.0+-blue?style=flat-square&logo=apple" alt="macOS 13.0+">
+  </a>
+  <a href="https://developer.apple.com/visionos/">
+    <img src="https://img.shields.io/badge/visionOS-1.0+-purple?style=flat-square&logo=apple" alt="visionOS 1.0+">
+  </a>
+  <a href="LICENSE">
+    <img src="https://img.shields.io/badge/License-MIT-yellow?style=flat-square" alt="MIT License">
+  </a>
+</p>
 
 ---
 
 ## ✨ Features
 
-- 👆 **Tap Gestures** — Single, double, triple tap with custom counts
-- 👋 **Swipe Gestures** — All four directions with customizable distance
-- 🤏 **Pinch & Zoom** — Scale views with momentum and bounds
-- 🔄 **Rotation** — Rotate views with snap angles
-- ✋ **Pan & Drag** — Velocity tracking and bounds support
-- ⏱️ **Long Press** — Customizable duration with callbacks
-- 🎯 **Combined Gestures** — Compose multiple gestures together
-- 📱 **Shake Detection** — Device shake gesture (iOS)
-- 🖱️ **Hover Effects** — Mouse hover support (macOS/visionOS)
-- 🎭 **Fully Transformable** — Scale + Rotate + Drag in one modifier
+| Category | Gestures |
+|----------|----------|
+| **Basic** | Tap, Double Tap, Triple Tap, Long Press (with progress) |
+| **Swipe** | All directions, Multi-direction, Edge Swipe |
+| **Transform** | Pinch, Rotation, Pan with velocity, Bounded Drag |
+| **Multi-finger** | Two-finger tap, Three-finger tap, Two-finger drag |
+| **Advanced** | Shape Recognition, Gesture Sequences, Force Touch, Hover |
+| **Motion** | Shake Detection, Tilt (accelerometer-based) |
+| **Tools** | Debugger Overlay, Recording/Playback, Haptic Integration |
 
----
+### 🎯 Shape Recognition
 
-## 🚀 Quick Start
+Draw shapes and GestureKit recognizes them automatically:
 
 ```swift
-import GestureKit
-
-struct ContentView: View {
-    var body: some View {
-        Rectangle()
-            .fill(.blue)
-            .frame(width: 200, height: 200)
-            .onSwipe(.left) { print("Swiped left!") }
-            .onDoubleTap { print("Double tapped!") }
-            .onPinch { scale in print("Scale: \(scale)") }
+Rectangle()
+    .onShapeDrawn { result in
+        print("Shape: \(result.shape)")        // .circle, .square, .triangle...
+        print("Confidence: \(result.confidence)") // 0.0 - 1.0
     }
+```
+
+**Supported Shapes:** Circle, Square, Rectangle, Triangle, Line, Checkmark, Cross, Arrow, Star, Heart
+
+### 📼 Gesture Recording & Playback
+
+Record user gestures and replay them for tutorials, demos, or testing:
+
+```swift
+@StateObject var recorder = GestureRecorder()
+@StateObject var player = GesturePlayer()
+
+// Record
+Rectangle()
+    .gestureRecording(recorder: recorder)
+
+// Playback
+player.play(recording) { point, index in
+    // Animate based on playback
 }
 ```
 
@@ -66,360 +82,443 @@ struct ContentView: View {
 
 ### Swift Package Manager
 
-Add to your `Package.swift`:
-
 ```swift
 dependencies: [
-    .package(url: "https://github.com/muhittincamdali/SwiftUI-Gesture-Library.git", from: "1.0.0")
+    .package(url: "https://github.com/muhamm3t-cap/SwiftUI-Gesture-Library.git", from: "2.0.0")
 ]
 ```
 
-Or in Xcode: **File → Add Packages** → Enter the repository URL.
-
-### Requirements
-
-| Platform | Minimum Version |
-|----------|-----------------|
-| iOS      | 15.0+           |
-| macOS    | 13.0+           |
-| tvOS     | 15.0+           |
-| watchOS  | 8.0+            |
-| visionOS | 1.0+            |
-| Swift    | 5.9+            |
+Or in Xcode: **File → Add Package Dependencies** → Enter the URL above.
 
 ---
 
-## 👆 Gesture Catalog
+## 🚀 Quick Start
+
+```swift
+import GestureKit
+
+struct ContentView: View {
+    @State private var scale: CGFloat = 1.0
+    @State private var rotation: Angle = .zero
+    
+    var body: some View {
+        Image("photo")
+            .resizable()
+            .scaledToFit()
+            // Swipe gestures
+            .onSwipe(.left) { print("Previous") }
+            .onSwipe(.right) { print("Next") }
+            // Double tap to reset
+            .onDoubleTap { 
+                scale = 1.0
+                rotation = .zero 
+            }
+            // Pinch to zoom
+            .onPinch { newScale in
+                scale = newScale
+            }
+            // Rotation
+            .onRotate { angle in
+                rotation = angle
+            }
+            .scaleEffect(scale)
+            .rotationEffect(rotation)
+    }
+}
+```
+
+---
+
+## 📖 Gesture Reference
+
+### Basic Gestures
+
+```swift
+// Tap variations
+view.gestureKit(.tap) { /* action */ }
+view.onDoubleTap { /* action */ }
+view.onTripleTap { /* action */ }
+
+// Long press with progress
+view.onLongPress(
+    minimumDuration: 1.0,
+    onStart: { /* started pressing */ },
+    onProgress: { progress in /* 0.0 to 1.0 */ },
+    onComplete: { /* completed! */ }
+)
+```
 
 ### Swipe Gestures
 
 ```swift
 // Single direction
-Rectangle()
-    .onSwipe(.left) { print("Left!") }
-    .onSwipe(.right) { print("Right!") }
-    .onSwipe(.up) { print("Up!") }
-    .onSwipe(.down) { print("Down!") }
-
-// Custom minimum distance
-Rectangle()
-    .onSwipe(.left, minimumDistance: 100) { 
-        print("Long swipe left!") 
-    }
+view.onSwipe(.left, minimumDistance: 50) { print("Swiped left") }
+view.onSwipe(.right) { print("Swiped right") }
+view.onSwipe(.up) { print("Swiped up") }
+view.onSwipe(.down) { print("Swiped down") }
 
 // All directions
-Rectangle()
-    .onSwipeAny { direction in
-        print("Swiped \(direction)")
-    }
+view.onSwipeAny { direction in
+    print("Swiped \(direction.rawValue)")
+}
+
+// Edge swipe (like iOS back gesture)
+view.onEdgeSwipe(.leading, threshold: 50) {
+    print("Swiped from leading edge")
+}
 ```
 
-### Tap Gestures
+### Transform Gestures
 
 ```swift
-// Double tap
-Rectangle()
-    .onDoubleTap { print("Double tap!") }
+// Pinch to zoom
+view.onPinch(
+    onChanged: { scale in /* during pinch */ },
+    onEnded: { finalScale in /* pinch ended */ }
+)
 
-// Triple tap
-Rectangle()
-    .onTripleTap { print("Triple tap!") }
+// Rotation
+view.onRotate(
+    onChanged: { angle in /* during rotation */ },
+    onEnded: { finalAngle in /* rotation ended */ }
+)
+
+// Pan with velocity
+view.onPan(
+    onChanged: { translation, velocity in /* during pan */ },
+    onEnded: { translation, predictedEnd in /* pan ended */ }
+)
+
+// Bounded drag
+@State var offset: CGSize = .zero
+view.draggable(
+    offset: $offset,
+    bounds: CGRect(x: -100, y: -100, width: 200, height: 200)
+)
+
+// Combined transforms (pinch + rotate + drag)
+@State var scale: CGFloat = 1.0
+@State var rotation: Angle = .zero
+@State var offset: CGSize = .zero
+
+view.transformable(
+    scale: $scale,
+    rotation: $rotation,
+    offset: $offset,
+    minScale: 0.5,
+    maxScale: 3.0
+)
 ```
 
-### Long Press
+### Multi-Finger Gestures
 
 ```swift
-Rectangle()
-    .onLongPress(
-        minimumDuration: 0.5,
-        onStart: { print("Press started") },
-        onEnd: { print("Press ended") }
-    )
+// Two-finger tap (iOS only)
+view.onTwoFingerTap {
+    print("Two fingers tapped")
+}
 ```
 
-### Pinch & Zoom
+### Motion Gestures (iOS)
 
 ```swift
-// Basic pinch
-Rectangle()
-    .onPinch(
-        onChanged: { scale in print("Scale: \(scale)") },
-        onEnded: { finalScale in print("Final: \(finalScale)") }
-    )
+// Shake detection
+view.onShake {
+    print("Device shaken!")
+}
 
-// Zoomable view with bounds
-@State private var scale: CGFloat = 1.0
-
-Image("photo")
-    .zoomable(
-        scale: $scale,
-        minScale: 0.5,
-        maxScale: 4.0,
-        doubleTapScale: 2.0  // Double tap toggles zoom
-    )
-```
-
-### Rotation
-
-```swift
-// Basic rotation
-Rectangle()
-    .onRotate(
-        onChanged: { angle in print("Angle: \(angle.degrees)°") },
-        onEnded: { finalAngle in print("Final: \(finalAngle.degrees)°") }
-    )
-
-// Rotatable with snap angles
-@State private var rotation: Angle = .zero
-
-Rectangle()
-    .rotatable(
-        rotation: $rotation,
-        snapAngles: [.zero, .degrees(90), .degrees(180), .degrees(270)]
-    )
-```
-
-### Pan & Drag
-
-```swift
-// Pan with velocity tracking
-Rectangle()
-    .onPan(
-        onChanged: { translation, velocity in
-            print("Position: \(translation)")
-            print("Velocity: \(velocity)")
-        },
-        onEnded: { translation, velocity in
-            print("Ended with velocity: \(velocity)")
-        }
-    )
-
-// Draggable view
-@State private var position: CGPoint = CGPoint(x: 100, y: 100)
-
-Circle()
-    .draggable(
-        position: $position,
-        bounds: CGRect(x: 0, y: 0, width: 300, height: 300),
-        snapBack: false,
-        onDragStart: { print("Started") },
-        onDragEnd: { finalPos in print("Ended at \(finalPos)") }
-    )
-```
-
-### Combined Transform (Scale + Rotate + Drag)
-
-```swift
-@State private var scale: CGFloat = 1.0
-@State private var rotation: Angle = .zero
-@State private var offset: CGSize = .zero
-
-Image("photo")
-    .transformable(
-        scale: $scale,
-        rotation: $rotation,
-        offset: $offset
-    )
-```
-
-### Shake Detection (iOS)
-
-```swift
-#if os(iOS)
-Rectangle()
-    .onShake {
-        print("Device shaken!")
-    }
-#endif
-```
-
-### Hover Effects (macOS/visionOS)
-
-```swift
-#if os(macOS) || os(visionOS)
-Rectangle()
-    .hoverEffect(
-        scale: 1.05,
-        onHover: { isHovering in
-            print(isHovering ? "Entered" : "Exited")
-        }
-    )
-#endif
-```
-
----
-
-## 🎯 Common Patterns
-
-### Image Viewer
-
-```swift
-struct ImageViewer: View {
-    @State private var scale: CGFloat = 1.0
-    @State private var offset: CGSize = .zero
-    
-    var body: some View {
-        Image("photo")
-            .resizable()
-            .aspectRatio(contentMode: .fit)
-            .scaleEffect(scale)
-            .offset(offset)
-            .zoomable(scale: $scale, minScale: 1.0, maxScale: 5.0)
-            .onPan(onChanged: { translation, _ in
-                offset = translation
-            })
+// Tilt detection
+view.onTilt { direction in
+    switch direction {
+    case .left: print("Tilted left")
+    case .right: print("Tilted right")
+    case .forward: print("Tilted forward")
+    case .backward: print("Tilted backward")
+    case .flat: print("Flat")
     }
 }
 ```
 
-### Dismissable Card
+### Shape Drawing
 
 ```swift
-struct DismissableCard: View {
-    @State private var offset: CGFloat = 0
-    @Binding var isPresented: Bool
-    
-    var body: some View {
-        RoundedRectangle(cornerRadius: 20)
-            .offset(y: offset)
-            .onSwipe(.down) {
-                withAnimation {
-                    isPresented = false
+view.onShapeDrawn(
+    lineWidth: 3,
+    lineColor: .blue,
+    onDrawing: { path in
+        // Track drawing in progress
+        print("Points: \(path.points.count)")
+    },
+    onComplete: { result in
+        print("Shape: \(result.shape)")
+        print("Confidence: \(result.confidence)")
+        print("Duration: \(result.drawDuration)s")
+    }
+)
+```
+
+---
+
+## 🎨 Animation Integration
+
+GestureKit includes 12 animation presets for gesture feedback:
+
+```swift
+@State private var animateBounce = false
+
+Button("Tap Me") {
+    animateBounce = true
+}
+.bounceAnimation(trigger: $animateBounce)
+```
+
+### Available Animations
+
+| Preset | Description |
+|--------|-------------|
+| `.bounce` | Scale down and spring back |
+| `.shake` | Horizontal shake |
+| `.pulse` | Scale up with opacity |
+| `.wiggle` | Rotational wiggle |
+| `.rubber` | Rubber band stretch |
+| `.flip` | 3D flip |
+| `.glow` | Shadow glow effect |
+| `.slide` | Horizontal slide |
+| `.fade` | Opacity pulse |
+| `.rotate` | Z-axis rotation |
+| `.swing` | Pendulum swing |
+| `.scale` | Scale up |
+
+```swift
+// Using presets
+view.gestureAnimation(.bounce, trigger: $trigger)
+view.gestureAnimation(.shake, trigger: $trigger)
+view.gestureAnimation(.wiggle, trigger: $trigger)
+
+// With configuration
+view.bounceAnimation(
+    trigger: $trigger,
+    scale: 0.85,
+    config: .init(duration: 0.4, autoreverses: true)
+)
+```
+
+---
+
+## 📳 Haptic Feedback
+
+Built-in haptic feedback for all gestures:
+
+```swift
+// Enable/disable globally
+GestureKit.hapticsEnabled = true
+
+// Manual haptics
+HapticEngine.impact(.light)
+HapticEngine.impact(.medium)
+HapticEngine.impact(.heavy)
+HapticEngine.notification(.success)
+HapticEngine.notification(.warning)
+HapticEngine.notification(.error)
+HapticEngine.selection()
+
+// Custom patterns
+HapticEngine.playPattern(.heartbeat)
+HapticEngine.playPattern(.celebration)
+HapticEngine.playPattern(.doubleTap)
+
+// View modifiers
+view.hapticOnTap(.medium)
+view.hapticOnLongPress(.heavy)
+```
+
+---
+
+## 🔧 Debugger Overlay
+
+Visual debugging for gesture development:
+
+```swift
+ContentView()
+    .enableGestureDebug(true)
+    .gestureDebuggerOverlay(
+        position: .bottomTrailing,
+        showTouches: true,
+        touchColor: .blue
+    )
+```
+
+Features:
+- Real-time gesture event log
+- Touch point visualization
+- Gesture state tracking
+- Export logs for analysis
+
+---
+
+## ♿️ Accessibility
+
+GestureKit provides full accessibility support:
+
+```swift
+// Accessible gestures with alternatives
+view.accessibleSwipe(.left, label: "Go back") {
+    navigateBack()
+}
+
+view.accessibleDoubleTap(label: "Zoom in") {
+    zoomIn()
+}
+
+view.accessibleLongPress(label: "Show options") {
+    showOptions()
+}
+
+// Respects reduced motion
+view.accessibleAnimation(.spring(), value: isActive)
+
+// VoiceOver announcements
+VoiceOverAnnouncement.gestureCompleted("Swipe")
+VoiceOverAnnouncement.shapeRecognized(.circle)
+```
+
+---
+
+## 📼 Recording & Playback
+
+Record gestures for tutorials, demos, or automated testing:
+
+```swift
+@StateObject var recorder = GestureRecorder()
+@StateObject var player = GesturePlayer()
+
+var body: some View {
+    VStack {
+        Canvas()
+            .gestureRecording(recorder: recorder, showIndicator: true)
+            .gesturePlayback(
+                player: player,
+                recording: selectedRecording,
+                pointColor: .blue
+            )
+        
+        HStack {
+            Button("Record") {
+                recorder.startRecording()
+            }
+            
+            Button("Stop") {
+                if let recording = recorder.stopRecording(name: "My Gesture") {
+                    // Recording saved
                 }
             }
+            
+            Button("Play") {
+                player.play(selectedRecording, speed: 1.0) { point, index in
+                    // Handle each point
+                } completion: {
+                    // Playback complete
+                }
+            }
+        }
     }
 }
 ```
 
-### Rotatable Dial
+Features:
+- Automatic persistence (UserDefaults)
+- Export/import recordings
+- Playback speed control
+- Progress tracking
+- Visual playback overlay
+
+---
+
+## 🔗 Gesture Sequences
+
+Detect sequences of gestures:
 
 ```swift
-struct RotatableDial: View {
-    @State private var rotation: Angle = .zero
-    
-    var body: some View {
-        Circle()
-            .fill(.gray)
-            .overlay(
-                Rectangle()
-                    .fill(.white)
-                    .frame(width: 4, height: 40)
-                    .offset(y: -30)
-            )
-            .rotatable(
-                rotation: $rotation,
-                snapAngles: stride(from: 0, through: 360, by: 30).map { .degrees($0) }
-            )
+@StateObject var tracker = GestureSequenceTracker()
+
+view.onAppear {
+    tracker.track(
+        sequence: GestureSequence(
+            name: "Secret Code",
+            gestures: [.swipe(.up), .swipe(.down), .doubleTap],
+            timeLimit: 3.0
+        )
+    ) {
+        print("Secret code entered!")
     }
 }
 ```
 
----
-
-## 📊 API Reference
-
-### Swipe
-
-| Modifier | Description |
-|----------|-------------|
-| `.onSwipe(_:minimumDistance:perform:)` | Detect swipe in direction |
-| `.onSwipeAny(perform:)` | Detect swipe in any direction |
-
-### Tap
-
-| Modifier | Description |
-|----------|-------------|
-| `.onDoubleTap(perform:)` | Detect double tap |
-| `.onTripleTap(perform:)` | Detect triple tap |
-
-### Press
-
-| Modifier | Description |
-|----------|-------------|
-| `.onLongPress(minimumDuration:onStart:onEnd:)` | Detect long press |
-
-### Scale
-
-| Modifier | Description |
-|----------|-------------|
-| `.onPinch(onChanged:onEnded:)` | Detect pinch gesture |
-| `.zoomable(scale:minScale:maxScale:doubleTapScale:)` | Make view zoomable |
-
-### Rotation
-
-| Modifier | Description |
-|----------|-------------|
-| `.onRotate(onChanged:onEnded:)` | Detect rotation |
-| `.rotatable(rotation:snapAngles:)` | Make view rotatable |
-
-### Drag
-
-| Modifier | Description |
-|----------|-------------|
-| `.onPan(onChanged:onEnded:)` | Detect pan with velocity |
-| `.draggable(position:bounds:snapBack:)` | Make view draggable |
-
-### Combined
-
-| Modifier | Description |
-|----------|-------------|
-| `.transformable(scale:rotation:offset:)` | Full transform support |
+Built-in sequences:
+- `GestureSequence.doubleTapHold`
+- `GestureSequence.swipeAndTap`
 
 ---
 
-## 🧪 Testing
+## 🏗️ Architecture
 
-```bash
-swift test
+```
+┌─────────────────────────────────────────────────────────────┐
+│                        GestureKit                           │
+├─────────────────────────────────────────────────────────────┤
+│  ┌─────────────┐  ┌─────────────┐  ┌─────────────────────┐  │
+│  │   Core      │  │  Advanced   │  │      Tools          │  │
+│  │  Gestures   │  │  Gestures   │  │                     │  │
+│  ├─────────────┤  ├─────────────┤  ├─────────────────────┤  │
+│  │ • Tap       │  │ • Shape     │  │ • Debugger Overlay  │  │
+│  │ • Swipe     │  │   Recognition│ │ • Recorder/Player   │  │
+│  │ • Pinch     │  │ • Sequences │  │ • Accessibility     │  │
+│  │ • Rotation  │  │ • Shake     │  │ • Haptic Engine     │  │
+│  │ • Pan       │  │ • Tilt      │  │ • Animations        │  │
+│  │ • Long Press│  │ • Multi-    │  │                     │  │
+│  │ • Edge Swipe│  │   finger    │  │                     │  │
+│  └─────────────┘  └─────────────┘  └─────────────────────┘  │
+├─────────────────────────────────────────────────────────────┤
+│                    View Extensions                          │
+│   .onSwipe() .onPinch() .onRotate() .onShapeDrawn() ...    │
+└─────────────────────────────────────────────────────────────┘
 ```
 
 ---
 
-## 📁 Project Structure
+## 📋 Requirements
 
-```
-SwiftUI-Gesture-Library/
-├── Sources/
-│   └── GestureKit/
-│       ├── GestureKit.swift         # Core gestures
-│       └── AdvancedGestures.swift   # Advanced modifiers
-├── Tests/
-│   └── GestureKitTests/
-├── Documentation/
-├── Examples/
-└── Package.swift
-```
+| Platform | Minimum Version |
+|----------|-----------------|
+| iOS | 15.0+ |
+| macOS | 13.0+ |
+| tvOS | 15.0+ |
+| watchOS | 8.0+ |
+| visionOS | 1.0+ |
+
+- Swift 5.9+
+- Xcode 15.0+
 
 ---
 
 ## 🤝 Contributing
 
-Contributions welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) first.
+Contributions are welcome! Please read our [Contributing Guide](CONTRIBUTING.md) first.
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'feat: add amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
 
 ---
 
 ## 📄 License
 
-MIT License - see [LICENSE](LICENSE) for details.
+GestureKit is available under the MIT license. See the [LICENSE](LICENSE) file for more info.
 
 ---
 
-<div align="center">
-
-**[⬆ Back to Top](#-features)**
-
-Made with ❤️ by [Muhittin Camdali](https://github.com/muhittincamdali)
-
-</div>
-
----
-
-## 📈 Star History
-
-<a href="https://star-history.com/#muhittincamdali/SwiftUI-Gesture-Library&Date">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=muhittincamdali/SwiftUI-Gesture-Library&type=Date&theme=dark" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=muhittincamdali/SwiftUI-Gesture-Library&type=Date" />
-   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=muhittincamdali/SwiftUI-Gesture-Library&type=Date" />
- </picture>
-</a>
+<p align="center">
+  Made with ❤️ for the SwiftUI community
+</p>
